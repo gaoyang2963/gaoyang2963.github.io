@@ -7,13 +7,16 @@ description: "Virtual Intelligence and Graphical Animation Laboratory - Research
 keywords: [VR, Virtual Reality, Fluid Simulation, Computer Graphics, Research]
 author: Yang Gao
 
+# Main sections for homepage
+mainSections: ["post"]
+
 # Home Page Parameters
 profileMode:
   enabled: false
 
 homeInfoParams:
-  Title: "VIGA Lab"
-  Content: |
+  title: "VIGA Lab"
+  content: |
     Virtual Intelligence and Graphical Animation Laboratory
     
     Research in VR, fluid simulation, and realistic rendering
