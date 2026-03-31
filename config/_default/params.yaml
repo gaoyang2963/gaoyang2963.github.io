@@ -12,14 +12,20 @@ mainSections: ["post"]
 
 # Home Page Parameters
 profileMode:
-  enabled: false
-
-homeInfoParams:
+  enabled: true
   title: "VIGA Lab"
-  content: |
-    Virtual Intelligence and Graphical Animation Laboratory
-    
-    Research in VR, fluid simulation, and realistic rendering
+  subtitle: "Virtual Intelligence and Graphical Animation Laboratory"
+  imageUrl: "/img/portrait/GY.jpg"
+  imageTitle: "Yang Gao"
+  imageWidth: 150
+  imageHeight: 150
+  buttons:
+    - name: Publications
+      url: /publication
+    - name: Members
+      url: /member
+    - name: News
+      url: /news
 
 # Social Icons
 socialIcons:
