@@ -6,23 +6,21 @@ title: Yang Gao
 first_name: Yang
 last_name: Gao
 
-# Status emoji
-status:
-  icon: ☕️
-
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of VIGA Lab
+role: Ph.D., Director of VIGA Lab
 
 # Organizations/Affiliations
 organizations:
-  - name: Virtual Intelligence and Graphical Animation Laboratory
+  - name: School of Computer Science and Technology
+    url: ''
+  - name: Suzhou City University of Applied Sciences
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include VR technology, fluid simulation, realistic rendering, and physiological signal processing.
+bio: My research interests include virtual reality, physics-based fluid simulation, realistic rendering, and VR rehabilitation.
 
 interests:
   - Virtual Reality (VR)
@@ -44,9 +42,6 @@ education:
       year: 20XX
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
@@ -54,7 +49,7 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/gaoyang2963
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: graduation-cap
     icon_pack: fas
     link: ''
   - icon: linkedin
@@ -62,7 +57,6 @@ social:
     link: ''
 
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
@@ -74,4 +68,18 @@ email: 'honggaoyang@anspxhj999.onexmail.com'
 highlight_name: true
 ---
 
-Yang Gao is the director of the Virtual Intelligence and Graphical Animation Laboratory (VIGA Lab). His research focuses on virtual reality technology, physics-based fluid simulation, realistic rendering, and the application of VR in rehabilitation and physiological signal processing.
+Yang Gao is the Director of the Virtual Intelligence and Graphical Animation Laboratory (VIGA Lab) at Suzhou City University of Applied Sciences. His research focuses on virtual reality technology, physics-based fluid simulation, realistic rendering, and the application of VR in rehabilitation and physiological signal processing.
+
+## Research Interests
+
+- **Virtual Reality (VR)**: Immersive environment design and interaction techniques
+- **Physics-based Fluid Simulation**: Real-time fluid dynamics for interactive applications
+- **Realistic Rendering**: Global illumination and material modeling
+- **Physiological Signal Processing**: EEG/EMG integration with VR systems
+- **VR Rehabilitation**: Medical applications of virtual reality technology
+
+## Contact
+
+- **Email:** honggaoyang@anspxhj999.onexmail.com
+- **Phone:** +86 400-9699-180
+- **Address:** 903 Chunshenhu West Road, Xiangcheng District, Suzhou, Jiangsu 215000, China
