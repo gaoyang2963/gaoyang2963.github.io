@@ -18,16 +18,9 @@ profileMode:
   imageTitle: "Yang Gao"
   imageWidth: 150
   imageHeight: 150
-  buttons:
-    - name: Members
-      url: /member
 
-# Social Icons
-socialIcons:
-  - name: email
-    url: "mailto:honggaoyang@anspxhj999.onexmail.com"
-  - name: github
-    url: "https://github.com/gaoyang2963"
+# Social Icons - removed as requested
+socialIcons: []
 
 # Site Settings
 defaultTheme: auto
