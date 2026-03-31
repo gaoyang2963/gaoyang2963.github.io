@@ -1,114 +1,96 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/resume/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# PaperMod Theme Parameters
+# Documentation: https://github.com/adityatelange/hugo-PaperMod/wiki/Features
 
-# Appearance
-appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: L
+env: production
+title: Yang Gao | VIGA Lab
+description: "Virtual Intelligence and Graphical Animation Laboratory - Research in VR, fluid simulation, and realistic rendering"
+keywords: [VR, Virtual Reality, Fluid Simulation, Computer Graphics, Research]
+author: Yang Gao
 
-# Custom color scheme - clean academic style
-# Primary color for links and buttons (blue like miaowang.me)
-# Background: white, Text: dark gray
+# Home Page Parameters
+profileMode:
+  enabled: true
+  title: "Yang Gao"
+  subtitle: "Ph.D., Director of VIGA Lab"
+  imageUrl: "/images/avatar.jpg"
+  imageTitle: "Yang Gao"
+  imageWidth: 150
+  imageHeight: 150
+  buttons:
+    - name: Publications
+      url: /publications/
+    - name: Research
+      url: /research/
+    - name: Member
+      url: /member/
 
-# SEO
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: 'VIGA Lab'
-    description: 'Virtual Intelligence and Graphical Animation Laboratory - Research in VR, fluid simulation, and realistic rendering'
-    twitter: ''
-  analytics:
-    google_analytics: ''
-    baidu_tongji: '8b2d274f38f0a4439839a322bf8e9711'
-  verification:
-    google: ''
-    baidu: ''
+# Social Icons
+socialIcons:
+  - name: email
+    url: "mailto:honggaoyang@anspxhj999.onexmail.com"
+  - name: github
+    url: "https://github.com/gaoyang2963"
 
-# Site header - Clean navbar style
-header:
-  navbar:
-    enable: true
-    align: r
-    show_logo: false
-    show_language: false
-    show_day_night: false
-    show_search: false
-    highlight_active_link: true
+# Site Settings
+defaultTheme: auto
+ShowShareButtons: false
+ShowReadingTime: false
+displayFullLangName: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowRssButtonInSectionTermList: true
+ShowToc: true
+TocOpen: false
 
-# Site footer
-footer:
-  copyright:
-    notice: '© {year} VIGA Lab. All rights reserved.'
-    license:
-      enable: false
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+# Comments
+comments: false
 
-# Localization
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
+# Analytics
+googleAnalytics: ""
+baiduAnalytics: "8b2d274f38f0a4439839a322bf8e9711"
 
-# Site features
-features:
-  syntax_highlighter:
-    enable: true
-    extra_languages:
-      - r
-      - latex
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/gaoyang2963/gaoyang2963.github.io'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
+# Assets
+assets:
+  disableHLJS: false
+  favicon: "/favicon.ico"
+  favicon16x16: "/favicon-16x16.png"
+  favicon32x32: "/favicon-32x32.png"
+  apple_touch_icon: "/apple-touch-icon.png"
+  safari_pinned_tab: "/safari-pinned-tab.svg"
 
-# Extensions
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academic:
-    enable: true
-    # Add your Google Scholar ID here
-    scholar_id: ''
+# Cover Images
+cover:
+  hidden: true
+  hiddenInList: true
+  hiddenInSingle: true
 
-# Security
-security:
-  # Allow frame for embedding speaker notes
-  allow_frame: true
+# Edit Post
+editPost:
+  URL: "https://github.com/gaoyang2963/gaoyang2963.github.io/tree/main/content"
+  Text: "Suggest Changes"
+  appendFilePath: true
+
+# Search
+search:
+  enable: true
+
+# Fuse.js Search
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: ["title", "permalink", "summary", "content"]
+
+# Label
+label:
+  text: "VIGA Lab"
+  icon: /apple-touch-icon.png
+  iconHeight: 35
+
+# Custom CSS/JS
+customCSS: []
+customJS: []

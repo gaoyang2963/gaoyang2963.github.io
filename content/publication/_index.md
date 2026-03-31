@@ -1,14 +1,13 @@
 ---
-title: Publications
+title: "Publications"
+description: "Publications from VIGA Lab"
+hidemeta: true
 ---
 
-Our lab publishes research findings in top-tier conferences and journals in computer graphics, virtual reality, and human-computer interaction.
+## Publications
 
-## Publication Categories
+Our research has been published in top-tier conferences and journals in computer graphics, virtual reality, and human-computer interaction.
 
-- **Journal Articles**: Peer-reviewed articles in international journals
-- **Conference Papers**: Papers presented at major conferences
-- **Book Chapters**: Contributions to edited volumes
-- **Technical Reports**: Detailed technical documentation
+### Selected Papers
 
-*Publications will be added here as they become available.*
+*More publications coming soon...*
