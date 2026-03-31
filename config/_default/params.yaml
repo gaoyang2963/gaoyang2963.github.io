@@ -75,7 +75,7 @@ label:
 
 # Custom CSS/JS
 customCSS: ["/css/custom.css"]
-customJS: ["/js/visitor.js"]
+customJS: ["/js/visitor-map.js"]
 
-# Visitor widget
-busuanzi: true
+# Visitor map (token injected from GitHub Actions secret VISITOR_TOKEN)
+githubToken: {{ env "HUGO_PARAMS_GITHUBTOKEN" | default "" }}

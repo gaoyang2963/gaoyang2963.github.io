@@ -101,40 +101,54 @@
 
 /* Contact section - removed */
 
-/* Visitor widget */
-.home-visitor {
-  display: flex;
-  align-items: center;
-  gap: 18px;
+/* Visitor Map */
+.home-visitor-map {
   margin-top: 5px;
 }
 
-.visitor-globe {
-  flex-shrink: 0;
+.home-visitor-map h5 .map-icon {
+  margin-right: 4px;
 }
 
-.visitor-globe-text {
-  font-size: 2.8rem;
-  line-height: 1;
-  display: block;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
-}
-
-.visitor-info {
+.visitor-desc {
   font-size: 0.88rem;
-  line-height: 1.7;
   color: #555;
+  margin: 0 0 12px 0;
 }
 
-.visitor-location {
-  margin: 0 0 2px 0;
+.visitor-desc #visitor-location-text {
   font-weight: 500;
 }
 
-.visitor-count {
-  margin: 0;
+#visitor-map {
+  width: 100%;
+  height: 280px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 1px solid var(--border);
+  background: #1a1a1a;
+}
+
+.visitor-stats {
   font-size: 0.82rem;
   color: #888;
+  margin: 0;
+}
+
+.visitor-stats #visitor-count-number {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.visitor-popup {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.visitor-popup strong {
+  display: block;
+  margin-bottom: 4px;
 }
 
 /* Details/Summary for collapsible sections */
