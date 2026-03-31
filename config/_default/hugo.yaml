@@ -1,0 +1,98 @@
+baseURL: 'https://gao-yang.cc'
+languageCode: 'en-us'
+title: 'Yang Gao | VIGA Lab'
+theme: 'starter-hugo-academic'
+
+# Pagination
+paginate: 10
+paginatePath: '/page/'
+
+# Enable emoji
+enableEmoji: true
+
+# Enable Git Info
+enableGitInfo: false
+
+# Security
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
+
+# Markup
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
+    style: 'dracula'
+
+# Image processing
+imaging:
+  quality: 75
+  resampleFilter: 'lanczos'
+
+# Taxonomies
+taxonomies:
+  tag: 'tags'
+  category: 'categories'
+  publication_type: 'publication_types'
+  author: 'authors'
+
+# Permalinks
+permalinks:
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
+
+# Outputs
+outputs:
+  home: ['HTML', 'RSS', 'JSON', 'WebAppManifest', 'headers', 'redirects']
+  section: ['HTML', 'RSS']
+
+# Media types
+mediaTypes:
+  application/manifest+json:
+    suffixes: ['webmanifest']
+  text/netlify:
+    delimiter: ''
+    suffixes: ''
+
+# Output formats
+outputFormats:
+  WebAppManifest:
+    mediaType: 'application/manifest+json'
+    rel: 'manifest'
+  headers:
+    baseName: '_headers'
+    isPlainText: true
+    mediaType: 'text/netlify'
+    notAlternative: true
+  redirects:
+    baseName: '_redirects'
+    isPlainText: true
+    mediaType: 'text/netlify'
+    notAlternative: true
+
+# Sitemap
+sitemap:
+  changefreq: 'weekly'
+  filename: 'sitemap.xml'
+  priority: 0.5
+
+# Related content
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: 'tags'
+      weight: 100
+    - name: 'categories'
+      weight: 70

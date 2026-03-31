@@ -1,0 +1,27 @@
+# Languages
+#   Learn more: https://docs.hugoblox.com/tutorial/language/
+
+# Default language
+en:
+  languageCode: en-us
+  contentDir: content
+  title: Yang Gao
+  params:
+    description: Virtual Intelligence and Graphical Animation Laboratory
+  menu:
+    main:
+      - name: Home
+        url: /
+        weight: 10
+      - name: Research
+        url: /#research
+        weight: 20
+      - name: Publications
+        url: /#publications
+        weight: 30
+      - name: News
+        url: /#news
+        weight: 40
+      - name: Contact
+        url: /#contact
+        weight: 50

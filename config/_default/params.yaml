@@ -1,0 +1,110 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/resume/
+# Documentation: https://docs.hugoblox.com/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+appearance:
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
+  font_size: L
+
+# SEO
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: 'VIGA Lab'
+    description: 'Virtual Intelligence and Graphical Animation Laboratory - Research in VR, fluid simulation, and realistic rendering'
+    twitter: ''
+  analytics:
+    google_analytics: ''
+    baidu_tongji: '8b2d274f38f0a4439839a322bf8e9711'
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+footer:
+  copyright:
+    notice: '© {year} VIGA Lab. All rights reserved.'
+    license:
+      enable: false
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+# Localization
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
+
+# Site features
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/gaoyang2963/gaoyang2963.github.io'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
+
+# Extensions
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academic:
+    enable: true
+    # Add your Google Scholar ID here
+    scholar_id: ''
+
+# Security
+security:
+  # Allow frame for embedding speaker notes
+  allow_frame: true
