@@ -9,12 +9,12 @@ hidemeta: true
 <div style="display: flex; align-items: start; gap: 1.5rem; margin-bottom: 2rem;">
 <img src="/img/portrait/GY.jpg" alt="Yang Gao" style="width: 200px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 <div style="flex: 1;">
-<h3>Yang Gao (高阳)</h3>
-<p><strong>Position:</strong> Associate Professor</p>
-<p><strong>Lab:</strong> SKL. VR Technology and Systems</p>
-<p><strong>Institution:</strong> Beihang University</p>
-<p><strong>Email:</strong> gaoyangvr@buaa.edu.cn</p>
-<p style="margin-top: 0.5rem;">I am currently an Associate Professor in computer science at State Key Laboratory of Virtual Reality Technology and Systems (SKL. VR Technology and Systems) of Beihang University in Beijing. Prior to this, I received a PhD degree from Beihang University in 2019, supervised by Prof. Aimin Hao, and I am in long-term collaboration with Prof. Hong Qin (Stony Brook University).</p>
+<h3>Yang Gao (高 阳)</h3>
+<p><strong>Professor</strong></p>
+<p><a href="https://vrlab.buaa.edu.cn/" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">State Key Laboratory of Virtual Reality Technology and Systems</a></p>
+<p><a href="https://scse.buaa.edu.cn/index.htm" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">School of Computer Science and Engineering</a></p>
+<p><a href="https://buaa.edu.cn/" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">Beihang University</a></p>
+<p><strong>Email:</strong> gaoyangvr [at] buaa [dot] edu [dot] cn</p>
 </div>
 </div>
 
@@ -223,24 +223,51 @@ hidemeta: true
 
 ## Alumni
 
-<details>
-<summary><strong>点击查看所有 Alumni (点击展开/收起)</strong></summary>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1rem;">
+  <thead>
+    <tr style="background-color: #f5f5f5;">
+      <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">姓名</th>
+      <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">毕业日期</th>
+      <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">就业去向</th>
+      <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">获奖情况</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">李瑾</td><td style="padding: 10px;">2025.06</td><td style="padding: 10px;">北方工业大学</td><td style="padding: 10px;">北航研究生优秀学术创新成果奖</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">白洪铭</td><td style="padding: 10px;">2025.06</td><td style="padding: 10px;">中国航空工业集团沈阳飞机设计研究所</td><td style="padding: 10px;">优秀研究生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">曲清越</td><td style="padding: 10px;">2025.06</td><td style="padding: 10px;">阿里云</td><td style="padding: 10px;">北航优秀团员</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">陈安琪</td><td style="padding: 10px;">2025.01</td><td style="padding: 10px;">字节跳动</td><td style="padding: 10px;">北航优秀毕业生；北航三好学生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">李明</td><td style="padding: 10px;">2024.12</td><td style="padding: 10px;">清华大学(博士后)</td><td style="padding: 10px;">第24届中国虚拟现实大会最佳海报奖；"北航之友"九号公司奖学金特等奖；第7届计算机图形学与混合现实前沿研讨会优秀海报奖；北航优秀毕业生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">王可欣</td><td style="padding: 10px;">2024.06</td><td style="padding: 10px;">美团</td><td style="padding: 10px;">北航优秀毕业论文</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">谢雪光</td><td style="padding: 10px;">2024.01</td><td style="padding: 10px;">北京科技大学</td><td style="padding: 10px;">VIGA Lab 首位博士毕业生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">卓陈</td><td style="padding: 10px;">2024.01</td><td style="padding: 10px;">阿里巴巴</td><td style="padding: 10px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">王可心</td><td style="padding: 10px;">2024.06</td><td style="padding: 10px;">美团</td><td style="padding: 10px;">北航优秀毕业论文</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">蒋孟贤</td><td style="padding: 10px;">2023.06</td><td style="padding: 10px;">字节跳动</td><td style="padding: 10px;"></td></tr>
+  </tbody>
+</table>
 
-| 姓名 | 毕业日期 | 就业去向 | 获奖情况 |
-|------|-----------|----------|----------|
-| 李瑾 | 2025.06 | 北方工业大学 | 北航研究生优秀学术创新成果奖 |
-| 白洪铭 | 2025.06 | 中国航空工业集团沈阳飞机设计研究所 | 优秀研究生 |
-| 曲清越 | 2025.06 | 阿里云 | 北航优秀团员 |
-| 陈安琪 | 2025.01 | 字节跳动 | 北航优秀毕业生；北航三好学生 |
-| 李明 | 2024.12 | 清华大学(博士后) | 第24届中国虚拟现实大会最佳海报奖；"北航之友"九号公司奖学金特等奖；第7届计算机图形学与混合现实前沿研讨会优秀海报奖；北航优秀毕业生 |
-| 王可欣 | 2024.06 | 美团 | 北航优秀毕业论文 |
-| 谢雪光 | 2024.01 | 北京科技大学 | VIGA Lab 首位博士毕业生 |
-| 卓陈 | 2024.01 | 阿里巴巴 | |
-| 王可心 | 2024.06 | 美团 | 北航优秀毕业论文 |
-| 蒋孟贤 | 2023.06 | 字节跳动 | |
-| 程天伟 | 2023.06 | 交通银行 | |
-| 胡奔 | 2023.01 | 阿里巴巴 | 北京市优秀毕业生；北航计算机之星；北航三好学生；北航优秀研究生 |
-| 陈舒玮 | 2022.01 | 新浪微博 | |
-| 翟英男 | 2022.01 | 经纬恒润 | 北航优秀研究生、北航优秀毕业生 |
+<div id="alumni-more" style="display: none;">
+<table style="width: 100%; border-collapse: collapse;">
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">程天伟</td><td style="padding: 10px;">2023.06</td><td style="padding: 10px;">交通银行</td><td style="padding: 10px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">胡奔</td><td style="padding: 10px;">2023.01</td><td style="padding: 10px;">阿里巴巴</td><td style="padding: 10px;">北京市优秀毕业生；北航计算机之星；北航三好学生；北航优秀研究生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">陈舒玮</td><td style="padding: 10px;">2022.01</td><td style="padding: 10px;">新浪微博</td><td style="padding: 10px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">翟英男</td><td style="padding: 10px;">2022.01</td><td style="padding: 10px;">经纬恒润</td><td style="padding: 10px;">北航优秀研究生、北航优秀毕业生</td></tr>
+  </tbody>
+</table>
+</div>
 
-</details>
+<button id="show-more-alumni" style="margin-top: 1rem; padding: 0.5rem 1rem; background-color: #0064c8; color: white; border: none; border-radius: 4px; cursor: pointer;">显示更多</button>
+
+<script>
+document.getElementById('show-more-alumni').addEventListener('click', function() {
+  var alumniMore = document.getElementById('alumni-more');
+  if (alumniMore.style.display === 'none') {
+    alumniMore.style.display = 'block';
+    this.textContent = '收起';
+  } else {
+    alumniMore.style.display = 'none';
+    this.textContent = '显示更多';
+  }
+});
+</script>
