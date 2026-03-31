@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   sync-scholar:
@@ -41,11 +42,37 @@ jobs:
         run: |
           git diff --quiet || echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push changes
+      - name: Create Pull Request
         if: steps.git-check.outputs.changed == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add content/_index.md
-          git diff --cached --quiet || git commit -m "Auto: Sync publications from Google Scholar"
-          git push
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Auto: Sync publications from Google Scholar"
+          title: "📚 Monthly Google Scholar Sync - Please Review"
+          body: |
+            ## 📚 Monthly Google Scholar Publications Sync
+            
+            This PR automatically syncs new publications from Google Scholar.
+            
+            ### What to review:
+            - ✅ Check if the new papers are correct
+            - ✅ Verify the DOI links work
+            - ✅ Ensure formatting is correct
+            - ✅ Confirm no unwanted papers are included
+            
+            ### How to proceed:
+            1. Review the changes in the "Files changed" tab
+            2. Test locally if needed: `hugo server -D`
+            3. If everything looks good, merge this PR
+            4. The website will automatically deploy after merge
+            
+            ### Important:
+            - This PR only affects `content/_index.md`
+            - Original file is backed up automatically
+            - You can always discard changes if needed
+            
+            --- 
+            *Automated sync from Google Scholar (ID: gMVDb5wAAAAJ)*
+          branch: auto-sync-google-scholar
+          delete-branch: true
+          draft: false
