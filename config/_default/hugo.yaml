@@ -1,7 +1,6 @@
 baseURL: 'https://gao-yang.cc'
 languageCode: 'en-us'
 title: 'Yang Gao | VIGA Lab'
-theme: 'starter-hugo-academic'
 
 # Pagination
 paginate: 10
