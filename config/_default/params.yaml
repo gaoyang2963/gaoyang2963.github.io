@@ -10,6 +10,10 @@ appearance:
   font: minimal
   font_size: L
 
+# Custom color scheme - clean academic style
+# Primary color for links and buttons (blue like miaowang.me)
+# Background: white, Text: dark gray
+
 # SEO
 marketing:
   seo:
@@ -25,15 +29,15 @@ marketing:
     google: ''
     baidu: ''
 
-# Site header
+# Site header - Clean navbar style
 header:
   navbar:
     enable: true
-    align: l
-    show_logo: true
+    align: r
+    show_logo: false
     show_language: false
-    show_day_night: true
-    show_search: true
+    show_day_night: false
+    show_search: false
     highlight_active_link: true
 
 # Site footer

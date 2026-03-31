@@ -4,7 +4,7 @@ date: 2024-03-31
 type: landing
 
 sections:
-  # Hero Section - 简洁的个人介绍
+  # Hero Section - 简洁的个人介绍，类似 miaowang.me
   - block: hero
     id: about
     content:
@@ -16,12 +16,12 @@ sections:
         School of Computer Science and Technology  
         Suzhou City University of Applied Sciences
         
-        Research interests: Virtual Reality, Physics-based Fluid Simulation, Realistic Rendering, VR Rehabilitation
+        **Research Interests:** Virtual Reality, Physics-based Fluid Simulation, Realistic Rendering, VR Rehabilitation
     design:
       background:
         color: '#ffffff'
       spacing:
-        padding: ['100px', '0', '60px', '0']
+        padding: ['80px', '0', '40px', '0']
 
   # Biography Section
   - block: resume-biography
@@ -31,16 +31,16 @@ sections:
       username: admin
     design:
       background:
-        color: '#f8f9fa'
+        color: '#ffffff'
       spacing:
-        padding: ['60px', '0', '60px', '0']
+        padding: ['40px', '0', '40px', '0']
 
   # Research Section - 研究方向
   - block: collection
     id: research
     content:
       title: Research
-      subtitle: Research Directions
+      subtitle: ''
       text: ''
       count: 4
       filters:
@@ -50,15 +50,14 @@ sections:
       view: article-grid
       columns: '2'
       spacing:
-        padding: ['60px', '0', '60px', '0']
+        padding: ['40px', '0', '40px', '0']
 
   # Publications Section
   - block: collection
     id: publications
     content:
       title: Publications
-      text: |-
-        Selected publications in computer graphics, virtual reality, and human-computer interaction.
+      text: ''
       count: 5
       filters:
         folders:
@@ -67,14 +66,14 @@ sections:
       view: article-grid
       columns: '1'
       spacing:
-        padding: ['60px', '0', '60px', '0']
+        padding: ['40px', '0', '40px', '0']
 
   # News Section
   - block: collection
     id: news
     content:
       title: News
-      subtitle: Latest Updates
+      subtitle: ''
       text: ''
       count: 3
       filters:
@@ -84,7 +83,7 @@ sections:
       view: article-grid
       columns: '1'
       spacing:
-        padding: ['60px', '0', '60px', '0']
+        padding: ['40px', '0', '40px', '0']
 
   # Contact Section
   - block: markdown
@@ -94,8 +93,6 @@ sections:
       subtitle: ''
       text: |
         **Email:** [honggaoyang@anspxhj999.onexmail.com](mailto:honggaoyang@anspxhj999.onexmail.com)
-        
-        **Phone:** +86 400-9699-180
         
         **Address:**  
         Virtual Intelligence and Graphical Animation Laboratory  
@@ -107,5 +104,5 @@ sections:
       background:
         color: '#f8f9fa'
       spacing:
-        padding: ['60px', '0', '100px', '0']
+        padding: ['40px', '0', '60px', '0']
 ---

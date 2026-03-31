@@ -1,0 +1,127 @@
+/* Custom CSS - Clean Academic Style inspired by miaowang.me */
+
+/* Primary color - Blue */
+:root {
+  --primary: #337ab7;
+  --primary-hover: #286090;
+  --text-color: #333;
+  --text-muted: #777;
+  --bg-light: #f8f9fa;
+  --border-color: #e7e7e7;
+}
+
+/* Navbar styling - Clean white background */
+.navbar {
+  background-color: #fff !important;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.navbar-brand {
+  color: var(--text-color) !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-color) !important;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary) !important;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--primary-hover);
+  text-decoration: none;
+}
+
+/* Section titles */
+.section-title {
+  color: var(--text-color);
+  font-weight: 500;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+/* Footer styling */
+footer {
+  background-color: var(--bg-light) !important;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-muted);
+}
+
+/* Card styling */
+.card {
+  border: 1px solid var(--border-color);
+  box-shadow: none;
+}
+
+.card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Publication titles */
+.pub-title {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.pub-title a {
+  color: var(--primary);
+}
+
+/* Research section cards */
+.research-card {
+  border-left: 3px solid var(--primary);
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.hero-subtitle {
+  color: var(--text-muted);
+}
+
+/* Contact section */
+.contact-info {
+  line-height: 1.8;
+}
+
+/* Simplified layout - remove excessive padding */
+section {
+  padding: 60px 0 !important;
+}
+
+/* Clean typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+body {
+  color: var(--text-color);
+  line-height: 1.6;
+}
