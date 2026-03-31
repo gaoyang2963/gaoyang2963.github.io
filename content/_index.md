@@ -112,7 +112,7 @@ sections:
     id: contact
     content:
       title: Contact
-n      subtitle: ''
+      subtitle: ''
       text: ''
       # Contact (add or remove contact options as necessary)
       email: honggaoyang@anspxhj999.onexmail.com
