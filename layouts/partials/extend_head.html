@@ -1,0 +1,4 @@
+{{- /* Custom JS loading */ -}}
+{{- range site.Params.customJS -}}
+<script defer src="{{ . | absURL }}"></script>
+{{- end -}}

@@ -267,13 +267,12 @@ VIGA Lab, under the leadership of Associate Professor Gao Yang（高阳）, is a
 
 <hr />
 
-<div class="home-contact">
-
-<h5 id="-contact"><span class="contact-icon">📧</span> <strong>Contact</strong></h5>
-
-<ul>
-  <li><strong>Address:</strong> 苏州市相城区春申湖西路903号</li>
-  <li><strong>Email:</strong> <a href="mailto:honggaoyang@anspxhj999.onexmail.com">honggaoyang@anspxhj999.onexmail.com</a></li>
-</ul>
-
+<div class="home-visitor" id="visitor-widget">
+  <div class="visitor-globe" id="visitor-globe">
+    <span class="visitor-globe-text">🌐</span>
+  </div>
+  <div class="visitor-info" id="visitor-info">
+    <p class="visitor-location">Detecting your location...</p>
+    <p class="visitor-count">Total visitors: <span id="busuanzi_value_site_pv">-</span></p>
+  </div>
 </div>

@@ -75,3 +75,7 @@ label:
 
 # Custom CSS/JS
 customCSS: ["/css/custom.css"]
+customJS: ["/js/visitor.js"]
+
+# Visitor widget
+busuanzi: true
