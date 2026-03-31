@@ -75,26 +75,4 @@ related:
     - name: 'categories'
       weight: 70
 
-# Menu
-menu:
-  main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 10
-    - identifier: publications
-      name: Publications
-      url: /publications/
-      weight: 20
-    - identifier: research
-      name: Research
-      url: /research/
-      weight: 30
-    - identifier: member
-      name: Member
-      url: /member/
-      weight: 40
-    - identifier: news
-      name: News
-      url: /news/
-      weight: 50
+# Menu configuration is in menus.yaml

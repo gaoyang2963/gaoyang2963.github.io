@@ -13,7 +13,10 @@ profileMode:
 
 homeInfoParams:
   Title: "VIGA Lab"
-  Content: "Virtual Intelligence and Graphical Animation Laboratory - Research in VR, fluid simulation, and realistic rendering"
+  Content: |
+    Virtual Intelligence and Graphical Animation Laboratory
+    
+    Research in VR, fluid simulation, and realistic rendering
 
 # Social Icons
 socialIcons:
