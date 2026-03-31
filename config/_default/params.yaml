@@ -9,20 +9,11 @@ author: Yang Gao
 
 # Home Page Parameters
 profileMode:
-  enabled: true
-  title: "Yang Gao"
-  subtitle: "Ph.D., Director of VIGA Lab"
-  imageUrl: "/images/avatar.jpg"
-  imageTitle: "Yang Gao"
-  imageWidth: 150
-  imageHeight: 150
-  buttons:
-    - name: Publications
-      url: /publications/
-    - name: Research
-      url: /research/
-    - name: Member
-      url: /member/
+  enabled: false
+
+homeInfoParams:
+  Title: "VIGA Lab"
+  Content: "Virtual Intelligence and Graphical Animation Laboratory - Research in VR, fluid simulation, and realistic rendering"
 
 # Social Icons
 socialIcons:
