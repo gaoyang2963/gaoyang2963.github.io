@@ -77,5 +77,5 @@ label:
 customCSS: ["/css/custom.css"]
 customJS: ["/js/visitor-map.js"]
 
-# Visitor map (token injected from GitHub Actions secret VISITOR_TOKEN)
-githubToken: {{ env "HUGO_PARAMS_GITHUBTOKEN" | default "" }}
+# Visitor map (token will be empty in production, set manually for testing)
+githubToken: ""
