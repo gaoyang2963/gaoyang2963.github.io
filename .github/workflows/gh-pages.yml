@@ -45,8 +45,6 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          # Inject visitor token into JS file
-          sed -i "s|__VISITOR_TOKEN_PLACEHOLDER__|${{ secrets.VISITOR_TOKEN }}|g" static/js/visitor-map.js
           hugo \
             --gc \
             --minify \

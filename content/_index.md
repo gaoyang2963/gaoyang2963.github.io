@@ -269,8 +269,6 @@ VIGA Lab, under the leadership of Associate Professor Gao Yang（高阳）, is a
 
 <div class="home-visitor-map">
 
-<h5 id="-visitor-map"><span class="map-icon">🗺️</span> <strong>Visitor Map</strong></h5>
-
 <p class="visitor-desc">You are visiting from: <span id="visitor-location-text">Loading...</span></p>
 
 <div id="visitor-map"></div>
