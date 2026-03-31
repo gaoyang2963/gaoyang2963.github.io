@@ -1,0 +1,95 @@
+/* Profile Section - Left photo, Right info aligned */
+.home-profile-container {
+    margin-bottom: 2rem;
+}
+
+.home-profile {
+    max-width: 100%;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center; /* Vertically align photo and info */
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-img {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.2;
+}
+
+.profile-bio {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    line-height: 1.5;
+}
+
+.profile-bio a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.profile-bio a:hover {
+    text-decoration: underline;
+}
+
+.profile-intro {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.profile-intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+.profile-intro strong {
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .profile-name {
+        font-size: 1.5rem;
+    }
+
+    .profile-bio {
+        font-size: 0.95rem;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .profile-intro {
+        border-top-color: #444;
+    }
+}
+
+[data-theme='dark'] .profile-intro {
+    border-top-color: #444;
+}
+
+[data-theme='light'] .profile-intro {
+    border-top-color: #e0e0e0;
+}
