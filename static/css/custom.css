@@ -38,28 +38,19 @@
 }
 
 .profile-bio a {
-    color: #0066cc;
+    color: #0064c8; /* 北航蓝 - BUAA Blue */
     text-decoration: none;
+    font-weight: 500;
 }
 
 .profile-bio a:hover {
     text-decoration: underline;
+    color: #0055a8;
 }
 
-.profile-intro {
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid #e0e0e0;
-}
-
-.profile-intro p {
-    font-size: 1rem;
+.profile-intro-text {
+    margin-top: 1rem;
     line-height: 1.6;
-    margin: 0.5rem 0;
-}
-
-.profile-intro strong {
-    font-weight: 600;
 }
 
 /* Responsive Design */
@@ -81,17 +72,17 @@
 
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
-    .profile-intro {
-        border-top-color: #444;
+    .profile-intro-text {
+        color: #bbb;
     }
 }
 
-[data-theme='dark'] .profile-intro {
-    border-top-color: #444;
+[data-theme='dark'] .profile-intro-text {
+    color: #bbb;
 }
 
-[data-theme='light'] .profile-intro {
-    border-top-color: #e0e0e0;
+[data-theme='light'] .profile-intro-text {
+    color: #333;
 }
 
 /* Visitor Map Section - Smaller fonts */
