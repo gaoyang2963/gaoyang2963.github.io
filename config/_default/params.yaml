@@ -76,6 +76,3 @@ label:
 # Custom CSS/JS
 customCSS: ["/css/custom.css"]
 customJS: ["/js/visitor-map.js"]
-
-# Visitor map (token will be empty in production, set manually for testing)
-githubToken: ""

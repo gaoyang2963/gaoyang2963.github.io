@@ -1,8 +1,8 @@
 // Visitor Map Widget - GitHub Issues as Database
 // Pushes visitor location to GitHub Issue #1, renders Leaflet map
 
-// Token should be injected at build time from environment variable
-const GITHUB_TOKEN = '{{- with site.Params.githubToken -}}{{ . }}{{- end -}}' || '';
+// Token should be injected at build time from GitHub Actions secret
+const GITHUB_TOKEN = '__VISITOR_TOKEN_PLACEHOLDER__';
 
 const VISITOR_DATA_ISSUE = 1;
 const GITHUB_REPO = 'gaoyang2963/gaoyang2963.github.io';
