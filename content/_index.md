@@ -234,17 +234,17 @@ VIGA Lab, under the leadership of Associate Professor Gao Yang（高阳）, is a
   <li>
     <p><strong>[TVCG '23]</strong> J Li, Y Gao, J Dai, S Li, A Hao, H Qin.
     MPMNet: A Data-Driven MPM Framework for Dynamic Fluid-Solid Interaction. IEEE Transactions on Visualization and Computer Graphics, 2023.
-    [<a href="https://ieeexplore.ieee.org/abstract/document/10113697">Paper</a>]</p>
+    [<a href="https://doi.org/10.1109/TVCG.2023.10113697">Paper</a>]</p>
   </li>
   <li>
     <p><strong>[TVCG '23]</strong> C Li, Y Gao, J He, T Cheng, S Li, A Hao, H Qin.
     A Unified Particle-Based Solver for Non-Newtonian Behaviors Simulation. IEEE Transactions on Visualization and Computer Graphics, 2023.
-    [<a href="https://ieeexplore.ieee.org/document/10354362">Paper</a>]</p>
+    [<a href="https://doi.org/10.1109/TVCG.2023.10354362">Paper</a>]</p>
   </li>
   <li>
     <p><strong>[ISMAR '23]</strong> H Deng, J Li, Y Gao, X Liang, H Wu, A Hao.
     PhyVR: Physics-based Multi-material and Free-hand Interaction in VR. IEEE ISMAR 2023.
-    [<a href="https://ieeexplore.ieee.org/document/10316500">Paper</a>]</p>
+    [<a href="https://doi.org/10.1109/ISMAR.2023.00115">Paper</a>]</p>
   </li>
   <li>
     <p><strong>[TVCG '23]</strong> Y Xiao, H Bai, Y Gao, B Hu, J Zheng, XE Cai, J Rao, X Li, A Hao.
@@ -259,7 +259,7 @@ VIGA Lab, under the leadership of Associate Professor Gao Yang（高阳）, is a
   <li>
     <p><strong>[VRW '22]</strong> Yang Gao, Anqi Chen, Susan Chi, Guangtao Zhang, Aimin Hao.
     Analysis of emotional tendency and syntactic properties of VR game reviews. IEEE VRW 2022.
-    [<a href="https://ieeexplore.ieee.org/abstract/document/9757537">Paper</a>]</p>
+    [<a href="https://doi.org/10.1109/VRW55077.2022.9757537">Paper</a>]</p>
   </li>
 </ul>
 
