@@ -1,72 +1,128 @@
-/* Custom CSS - Clean Academic Homepage */
+/* Custom CSS - miaowang.me style academic homepage */
 
-/* Constrain content width for readability */
+/* Constrain content width */
 .main {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 /* Profile section */
 .profile {
-  padding-bottom: 30px !important;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 40px;
+  padding-bottom: 20px !important;
+  border-bottom: none;
+  margin-bottom: 10px;
 }
 
-/* Section headings */
-.main h2 {
-  font-size: 1.5rem;
+.profile .profile-name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Home intro paragraph */
+.home-intro {
+  line-height: 1.75;
+  font-size: 0.95rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Section dividers */
+.home-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 25px 0;
+}
+
+/* Section headings - match miaowang.me h5 style */
+.home-content h5 {
+  font-size: 1.05rem;
   font-weight: 600;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--primary);
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  border: none;
+  color: inherit;
 }
 
-.main h3 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  margin-top: 25px;
-  margin-bottom: 12px;
-  color: var(--primary);
+.home-content h5 .news-icon,
+.home-content h5 .pub-icon,
+.home-content h5 .contact-icon {
+  margin-right: 4px;
 }
 
-/* Publication entries */
-.main ul {
+/* News section */
+.home-news table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.home-news td {
+  padding: 4px 0;
+  vertical-align: top;
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.home-news .news-date {
+  white-space: nowrap;
+  padding-right: 18px;
+  width: 90px;
+  color: #666;
+  font-size: 0.88rem;
+}
+
+/* Publications section */
+.home-pubs ul {
   padding-left: 0;
   list-style: none;
 }
 
-.main ul li {
-  margin-bottom: 14px;
-  padding-left: 18px;
-  position: relative;
-  line-height: 1.7;
+.home-pubs ul li {
+  margin-bottom: 12px;
+  padding-left: 0;
+  position: static;
+  line-height: 1.65;
 }
 
-.main ul li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--primary);
+.home-pubs ul li::before {
+  content: none;
 }
 
-/* News entries - simpler style */
-.main ul li strong {
+.home-pubs ul li p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.home-pubs ul li p strong:first-child {
   color: var(--primary);
+}
+
+/* Contact section */
+.home-contact ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.home-contact ul li {
+  margin-bottom: 6px;
+  padding-left: 0;
+  position: static;
+  font-size: 0.92rem;
+}
+
+.home-contact ul li::before {
+  content: none;
 }
 
 /* Details/Summary for collapsible sections */
 details {
-  margin-top: 15px;
-  padding: 12px 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 14px;
   background: var(--entry);
-  border-radius: 6px;
+  border-radius: 4px;
   border: 1px solid var(--border);
 }
 
@@ -75,14 +131,15 @@ details summary {
   font-weight: 500;
   color: var(--primary);
   user-select: none;
+  font-size: 0.92rem;
 }
 
 details summary:hover {
   text-decoration: underline;
 }
 
-details[open] {
-  margin-bottom: 20px;
+details table {
+  margin-top: 10px;
 }
 
 /* Links */
@@ -96,8 +153,8 @@ a:hover {
 
 /* Footer */
 .footer {
-  margin-top: 60px;
-  padding-top: 20px !important;
+  margin-top: 50px;
+  padding-top: 15px !important;
   border-top: 1px solid var(--border);
 }
 
@@ -106,7 +163,14 @@ a:hover {
   .main {
     padding: 0 15px;
   }
-  .main h2 {
-    font-size: 1.3rem;
+  .home-news .news-date {
+    width: 72px;
+    padding-right: 10px;
+    font-size: 0.82rem;
+  }
+  .home-pubs ul li p,
+  .home-news td,
+  .home-contact ul li {
+    font-size: 0.85rem;
   }
 }
