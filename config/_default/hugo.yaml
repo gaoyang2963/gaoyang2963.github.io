@@ -3,8 +3,9 @@ languageCode: 'en-us'
 title: 'Yang Gao | VIGA Lab'
 
 # Pagination
-paginate: 10
-paginatePath: '/page/'
+pagination:
+  pagerSize: 10
+  path: '/page/'
 
 # Enable emoji
 enableEmoji: true

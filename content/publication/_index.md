@@ -1,13 +1,5 @@
 ---
 title: Publications
-
-# Listing view
-view: citation
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
 ---
 
 Our lab publishes research findings in top-tier conferences and journals in computer graphics, virtual reality, and human-computer interaction.
