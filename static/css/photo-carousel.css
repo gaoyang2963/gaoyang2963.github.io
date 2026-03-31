@@ -1,0 +1,120 @@
+/* Photo Carousel Styles */
+.photo-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 2rem auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.carousel-slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  height: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.carousel-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  padding: 0;
+}
+
+.carousel-indicator:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.carousel-indicator.active {
+  background-color: #fff;
+  transform: scale(1.2);
+}
+
+.carousel-arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.carousel-arrow {
+  pointer-events: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  color: #333;
+}
+
+.carousel-arrow:hover {
+  background-color: #fff;
+  transform: scale(1.1);
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .carousel-indicator {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .carousel-indicator:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+[data-theme="dark"] .carousel-indicator.active {
+  background-color: #000;
+}
+
+[data-theme="dark"] .carousel-arrow {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+[data-theme="dark"] .carousel-arrow:hover {
+  background-color: #000;
+}

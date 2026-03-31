@@ -68,4 +68,4 @@ label:
 
 # Custom CSS/JS
 customCSS: ["/css/custom.css"]
-customJS: ["/js/visitor-map.js"]
+customJS: ["/js/photo-carousel.js", "/js/visitor-map.js"]
