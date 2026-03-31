@@ -1,9 +1,8 @@
 # PaperMod Theme Parameters
-# Documentation: https://github.com/adityatelange/hugo-PaperMod/wiki/Features
 
 env: production
 title: Yang Gao | VIGA Lab
-description: "Virtual Intelligence and Graphical Animation Laboratory - Research in VR, fluid simulation, and realistic rendering"
+description: "Virtual Intelligence and Graphical Animation Laboratory"
 keywords: [VR, Virtual Reality, Fluid Simulation, Computer Graphics, Research]
 author: Yang Gao
 
@@ -20,12 +19,8 @@ profileMode:
   imageWidth: 150
   imageHeight: 150
   buttons:
-    - name: Publications
-      url: /publication
     - name: Members
       url: /member
-    - name: News
-      url: /news
 
 # Social Icons
 socialIcons:
@@ -40,10 +35,10 @@ ShowShareButtons: false
 ShowReadingTime: false
 displayFullLangName: true
 ShowPostNavLinks: true
-ShowBreadCrumbs: true
+ShowBreadCrumbs: false
 ShowCodeCopyButtons: true
 ShowRssButtonInSectionTermList: true
-ShowToc: true
+ShowToc: false
 TocOpen: false
 
 # Comments
@@ -68,25 +63,9 @@ cover:
   hiddenInList: true
   hiddenInSingle: true
 
-# Edit Post
-editPost:
-  URL: "https://github.com/gaoyang2963/gaoyang2963.github.io/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
-
 # Search
 search:
-  enable: true
-
-# Fuse.js Search
-fuseOpts:
-  isCaseSensitive: false
-  shouldSort: true
-  location: 0
-  distance: 1000
-  threshold: 0.4
-  minMatchCharLength: 0
-  keys: ["title", "permalink", "summary", "content"]
+  enable: false
 
 # Label
 label:
@@ -95,5 +74,4 @@ label:
   iconHeight: 35
 
 # Custom CSS/JS
-customCSS: []
-customJS: []
+customCSS: ["/css/custom.css"]
