@@ -93,3 +93,50 @@
 [data-theme='light'] .profile-intro {
     border-top-color: #e0e0e0;
 }
+
+/* Visitor Map Section - Smaller fonts */
+.home-visitor-map {
+    margin-top: 2rem;
+}
+
+.visitor-desc {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0.5rem 0;
+    line-height: 1.4;
+}
+
+.visitor-stats {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0.5rem 0;
+    line-height: 1.4;
+}
+
+.visitor-desc span,
+.visitor-stats span {
+    color: #333;
+}
+
+/* Dark mode for visitor map */
+@media (prefers-color-scheme: dark) {
+    .visitor-desc,
+    .visitor-stats {
+        color: #999;
+    }
+
+    .visitor-desc span,
+    .visitor-stats span {
+        color: #ddd;
+    }
+}
+
+[data-theme='dark'] .visitor-desc,
+[data-theme='dark'] .visitor-stats {
+    color: #999;
+}
+
+[data-theme='dark'] .visitor-desc span,
+[data-theme='dark'] .visitor-stats span {
+    color: #ddd;
+}
