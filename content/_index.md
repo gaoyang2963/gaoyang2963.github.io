@@ -108,7 +108,7 @@ sections:
       # Choose a layout view
       view: article-grid
       columns: '2'
-  - block: contact
+  - block: markdown
     id: contact
     content:
       title: Contact
