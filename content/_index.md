@@ -4,14 +4,6 @@ description: "Virtual Intelligence and Graphical Animation Laboratory"
 layout: "home"
 ---
 
-<div class="home-intro">
-
-VIGA Lab, under the leadership of Associate Professor Gao Yang（高阳）, is a key component of the National Key Laboratory of Virtual Reality Technology and Systems at Beihang University. We specialize in cutting-edge research in virtual modeling, physical simulation, and artificial intelligence, with applications spanning animation, medicine, and human-computer interaction (HCI).
-
-**Research Interests:** Physics-based fluid modelling/simulation, VR + Physiological signal (EEG/EMG), VR + Rehabilitation, Realistic Rendering.
-
-</div>
-
 <hr />
 
 <div class="home-news">

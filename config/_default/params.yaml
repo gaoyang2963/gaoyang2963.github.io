@@ -12,12 +12,12 @@ mainSections: ["post"]
 # Home Page Parameters
 profileMode:
   enabled: true
-  title: "VIGA Lab"
-  subtitle: "Virtual Intelligence and Graphical Animation Laboratory"
+  title: "Yang Gao"
+  subtitle: "Director of VIGA Lab"
   imageUrl: "/img/portrait/GY.jpg"
   imageTitle: "Yang Gao"
-  imageWidth: 150
-  imageHeight: 150
+  imageWidth: 180
+  imageHeight: 240
 
 # Social Icons - removed as requested
 socialIcons: []
