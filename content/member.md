@@ -49,58 +49,58 @@ hidemeta: true
 
 ## Ph.D. Students
 
-<div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2rem;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
 <div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/LCL.jpg" alt="Chunlei Li" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Chunlei Li (李春蕾)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> spring@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学2021级博士研究生，计算机科学与技术专业，研究方向为图形学流体与固体仿真。</p>
+<img src="/img/portrait/LCL.jpg" alt="Chunlei Li" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Chunlei Li (李春蕾)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> spring@buaa.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2021级博士，计算机科学与技术，研究方向：图形学流体与固体仿真。</p>
 </div>
 </div>
 
 <div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/LSY.jpg" alt="Shiyu Liang" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Shiyu Liang (梁仕宇)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> shiyuliang@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学2023级博士研究生，计算机应用技术专业，研究方向为真实感渲染。</p>
+<img src="/img/portrait/LSY.jpg" alt="Shiyu Liang" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Shiyu Liang (梁仕宇)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> shiyuliang@buaa.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2023级博士，计算机应用技术，研究方向：真实感渲染。</p>
 </div>
 </div>
 
 <div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/ZX.jpg" alt="Xin Zhao" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Xin Zhao (赵鑫)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> zhaoxin0105@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级博士研究生，计算机应用技术专业，研究方向为医学图像相关的深度学习技术的研究。</p>
+<img src="/img/portrait/ZX.jpg" alt="Xin Zhao" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Xin Zhao (赵鑫)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> zhaoxin0105@buaa.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2023级博士，计算机应用技术，研究方向：医学图像深度学习。</p>
 </div>
 </div>
 
 <div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/LF.jpg" alt="Fang Li" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Fang Li (李放)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> neesky@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级博士研究生，计算机科学与技术，研究方向为图像生成，图像超分。</p>
+<img src="/img/portrait/LF.jpg" alt="Fang Li" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Fang Li (李放)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> neesky@buaa.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2023级博士，计算机科学与技术，研究方向：图像生成、图像超分。</p>
 </div>
 </div>
 
 <div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/CQ.jpg" alt="Qi Chen" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Qi Chen (陈琪)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> 18208803128@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学2025级博士研究生，电子信息专业，研究方向为三维重建与图象生成。</p>
+<img src="/img/portrait/CQ.jpg" alt="Qi Chen" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Qi Chen (陈琪)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> 18208803128@163.com</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2025级博士，电子信息，研究方向：三维重建与图象生成。</p>
 </div>
 </div>
 
 <div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/LPJ.jpg" alt="Peiji Li" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Peiji Li (李佩吉)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> peiji_li@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学2025级博士研究生，计算机科学与技术专业，研究方向为计算机辅助医学。</p>
+<img src="/img/portrait/LPJ.jpg" alt="Peiji Li" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Peiji Li (李佩吉)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> peiji_li@163.com</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2025级博士，计算机科学与技术，研究方向：计算机辅助医学。</p>
 </div>
 </div>
 </div>
