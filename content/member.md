@@ -49,142 +49,180 @@ hidemeta: true
 
 ## Ph.D. Students
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
-<div>
-<img src="/img/portrait/LCL.jpg" alt="Chunlei Li" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Chunlei Li (李春蕾)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> spring@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学2021级博士研究生，计算机科学与技术专业，研究方向为图形学流体与固体仿真。</p>
+<div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2rem;">
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/LCL.jpg" alt="Chunlei Li" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Chunlei Li (李春蕾)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> spring@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学2021级博士研究生，计算机科学与技术专业，研究方向为图形学流体与固体仿真。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/LSY.jpg" alt="Shiyu Liang" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Shiyu Liang (梁仕宇)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> shiyuliang@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学2023级博士研究生，计算机应用技术专业，研究方向为真实感渲染。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/LSY.jpg" alt="Shiyu Liang" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Shiyu Liang (梁仕宇)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> shiyuliang@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学2023级博士研究生，计算机应用技术专业，研究方向为真实感渲染。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/ZX.jpg" alt="Xin Zhao" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Xin Zhao (赵鑫)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> zhaoxin0105@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2023级博士研究生，计算机应用技术专业，研究方向为医学图像相关的深度学习技术的研究。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/ZX.jpg" alt="Xin Zhao" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Xin Zhao (赵鑫)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> zhaoxin0105@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级博士研究生，计算机应用技术专业，研究方向为医学图像相关的深度学习技术的研究。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/LF.jpg" alt="Fang Li" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Fang Li (李放)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> neesky@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2023级博士研究生，计算机科学与技术，研究方向为图像生成，图像超分。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/LF.jpg" alt="Fang Li" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Fang Li (李放)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> neesky@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级博士研究生，计算机科学与技术，研究方向为图像生成，图像超分。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/CQ.jpg" alt="Qi Chen" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Qi Chen (陈琪)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> 18208803128@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学2025级博士研究生，电子信息专业，研究方向为三维重建与图象生成。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/CQ.jpg" alt="Qi Chen" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Qi Chen (陈琪)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> 18208803128@163.com</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学2025级博士研究生，电子信息专业，研究方向为三维重建与图象生成。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/LPJ.jpg" alt="Peiji Li" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Peiji Li (李佩吉)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> peiji_li@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学2025级博士研究生，计算机科学与技术专业，研究方向为计算机辅助医学。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/LPJ.jpg" alt="Peiji Li" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Peiji Li (李佩吉)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> peiji_li@163.com</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学2025级博士研究生，计算机科学与技术专业，研究方向为计算机辅助医学。</p>
+</div>
 </div>
 </div>
 
 ## Master Students
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
-<div>
-<img src="/img/portrait/SZL.jpg" alt="Zilong Song" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Zilong Song (宋子龙)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> dyb2306401@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2023级硕士生，计算机科学与技术专业，研究方向：三维场景重建。</p>
+<div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2rem;">
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/SZL.jpg" alt="Zilong Song" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Zilong Song (宋子龙)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> dyb2306401@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士生，计算机科学与技术专业，研究方向：三维场景重建。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/DYB.jpg" alt="Yangbin Dai" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Yangbin Dai (戴阳彬)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> dyb2306401@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2023级硕士生，计算机科学与技术专业，研究方向：数字人。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/DYB.jpg" alt="Yangbin Dai" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Yangbin Dai (戴阳彬)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> dyb2306401@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士生，计算机科学与技术专业，研究方向：数字人。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/XLJ.png" alt="Lingjing Xu" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Lingjing Xu (徐灵婧)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> xulingjing@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2023级硕士研究生，电子信息专业，研究方向：人物交互。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/XLJ.png" alt="Lingjing Xu" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Lingjing Xu (徐灵婧)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> xulingjing@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士研究生，电子信息专业，研究方向：人物交互。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/SDK.png" alt="Dakun Sun" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Dakun Sun (孙大琨)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> 19373230@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2023级硕士研究生，计算机科学与技术专业，研究方向为计算机图形学。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/SDK.png" alt="Dakun Sun" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Dakun Sun (孙大琨)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> 19373230@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士研究生，计算机科学与技术专业，研究方向为计算机图形学。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/LYC.jpg" alt="Yuecheng Li" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Yuecheng Li (李岳成)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> ycli2023@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2023级硕士研究生，计算机科学与技术专业，研究方向为虚拟现实及人工智能。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/LYC.jpg" alt="Yuecheng Li" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Yuecheng Li (李岳成)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> ycli2023@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士研究生，计算机科学与技术专业，研究方向为虚拟现实及人工智能。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/XH.jpg" alt="Hang Xu" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Hang Xu (许航)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> 20231106@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2024级硕士研究生，计算机技术专业，研究方向为计算机图形学。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/XH.jpg" alt="Hang Xu" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Hang Xu (许航)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> 20231106@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2024级硕士研究生，计算机技术专业，研究方向为计算机图形学。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/LWC.png" alt="Wencan Li" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Wencan Li (李文灿)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> wencan_li@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学中法工程师学院(国际通用工程学院)2024级硕士研究生，系统工程专业，研究方向为渲染。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/LWC.png" alt="Wencan Li" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Wencan Li (李文灿)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> wencan_li@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学中法工程师学院(国际通用工程学院)2024级硕士研究生，系统工程专业，研究方向为渲染。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/FWZC.jpg" alt="Weizichuan Feng" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Weizichuan Feng (冯韦子川)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> fengdayc@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2024级硕士研究生，计算机科学与技术专业，研究方向为渲染。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/FWZC.jpg" alt="Weizichuan Feng" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Weizichuan Feng (冯韦子川)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> fengdayc@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2024级硕士研究生，计算机科学与技术专业，研究方向为渲染。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/PZY.jpg" alt="Ziyi Pei" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Ziyi Pei (裴子祎)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> 20373780@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2024级硕士研究生，计算机技术专业，研究方向为虚拟现实与人工智能。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/PZY.jpg" alt="Ziyi Pei" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Ziyi Pei (裴子祎)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> 20373780@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2024级硕士研究生，计算机技术专业，研究方向为虚拟现实与人工智能。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/LX.jpg" alt="Xiao Liu" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Xiao Liu (刘逍)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> 15667936569@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2025级硕士研究生，计算机科学与技术专业，研究方向为虚拟现实与增强现实。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/LX.jpg" alt="Xiao Liu" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Xiao Liu (刘逍)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> 15667936569@163.com</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2025级硕士研究生，计算机科学与技术专业，研究方向为虚拟现实与增强现实。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/HJH.jpg" alt="Jiahao Hu" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Jiahao Hu (胡珈皓)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> hujh200368@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2025级硕士研究生，计算机科学与技术专业，研究方向为脑电分析、虚拟现实。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/HJH.jpg" alt="Jiahao Hu" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Jiahao Hu (胡珈皓)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> hujh200368@163.com</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2025级硕士研究生，计算机科学与技术专业，研究方向为脑电分析、虚拟现实。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/PS.jpg" alt="Shen Peng" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Shen Peng (彭莘)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> psfott@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学2025级硕士生研究生，计算机技术专业，研究方向为计算机图形学。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/PS.jpg" alt="Shen Peng" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Shen Peng (彭莘)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> psfott@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学2025级硕士生研究生，计算机技术专业，研究方向为计算机图形学。</p>
+</div>
 </div>
 
-<div>
-<img src="/img/portrait/ZS.jpg" alt="Shuang Zheng" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Shuang Zheng (郑爽)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> zszszszsf2021@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2025级硕士研究生，计算机科学与技术专业，研究方向：数字人。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/ZS.jpg" alt="Shuang Zheng" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.4;">
+<h4 style="margin: 0 0 0.15rem 0;">Shuang Zheng (郑爽)</h4>
+<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> zszszszsf2021@163.com</p>
+<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2025级硕士研究生，计算机科学与技术专业，研究方向：数字人。</p>
+</div>
 </div>
 </div>
 
