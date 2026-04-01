@@ -131,3 +131,28 @@
 [data-theme='dark'] .visitor-stats span {
     color: #ddd;
 }
+
+/* Carousel Description Section */
+.carousel-description {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.carousel-description p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .carousel-description p {
+        color: #aaa;
+    }
+}
+
+[data-theme='dark'] .carousel-description p {
+    color: #aaa;
+}
