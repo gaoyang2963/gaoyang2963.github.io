@@ -285,6 +285,15 @@ hidemeta: true
 </div>
 </div>
 
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/ZZW.jpg" alt="Zewen Zhou" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Zewen Zhou (周泽文)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> 2563931867@qq.com</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">北京航空航天大学2025级本科生，计算机科学与技术，研究方向：计算机图形学与物理仿真。</p>
+</div>
+</div>
+
 
 </div>
 
