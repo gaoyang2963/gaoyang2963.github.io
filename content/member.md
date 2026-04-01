@@ -274,7 +274,7 @@ hidemeta: true
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">李明</td><td style="padding: 10px;">2024.12</td><td style="padding: 10px;">清华大学(博士后)</td><td style="padding: 10px;">第24届中国虚拟现实大会最佳海报奖；"北航之友"九号公司奖学金特等奖；第7届计算机图形学与混合现实前沿研讨会优秀海报奖；北航优秀毕业生</td></tr>
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">王可欣</td><td style="padding: 10px;">2024.06</td><td style="padding: 10px;">美团</td><td style="padding: 10px;">北航优秀毕业论文</td></tr>
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">谢雪光</td><td style="padding: 10px;">2024.01</td><td style="padding: 10px;">北京科技大学</td><td style="padding: 10px;">VIGA Lab 首位博士毕业生</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">卓陈</td><td style="padding: 10px;">2024.01</td><td style="padding: 10px;">阿里巴巴</td><td style="padding: 10px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">陈卓</td><td style="padding: 10px;">2024.01</td><td style="padding: 10px;">阿里巴巴</td><td style="padding: 10px;"></td></tr>
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">王可心</td><td style="padding: 10px;">2024.06</td><td style="padding: 10px;">美团</td><td style="padding: 10px;">北航优秀毕业论文</td></tr>
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">蒋孟贤</td><td style="padding: 10px;">2023.06</td><td style="padding: 10px;">字节跳动</td><td style="padding: 10px;"></td></tr>
   </tbody>
