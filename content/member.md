@@ -294,6 +294,15 @@ hidemeta: true
 </div>
 </div>
 
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/GXY.jpg" alt="Xiangyi Ge" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Xiangyi Ge (葛相宜)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> gexiangyi@buaa.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2024级本科生，计算机科学与技术，研究方向为计算机图形学。</p>
+</div>
+</div>
+
 
 </div>
 
