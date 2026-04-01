@@ -44,8 +44,20 @@ layout: "home"
       </div>
       <div class="carousel-slide">
         <img src="/img/banner/VR2026.jpg" alt="VR 2026">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/VR26ZXC.jpg" alt="VR 2026 ZXC">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/VR26LWC.jpg" alt="VR 2026 LWC">
+      </div>
+      <div class="carousel-slide">
         <img src="/img/banner/xxgby.jpg" alt="Xueguang Xie Graduation">
+      </div>
+      <div class="carousel-slide">
         <img src="/img/banner/ljby.jpg" alt="Li Jin Graduation">
+      </div>
+      <div class="carousel-slide">
         <img src="/img/banner/qyhmby.jpg" alt="Qu Qingyue Graduation">
       </div>
     </div>
@@ -64,6 +76,11 @@ layout: "home"
       <button class="carousel-indicator" data-index="9"></button>
       <button class="carousel-indicator" data-index="10"></button>
       <button class="carousel-indicator" data-index="11"></button>
+      <button class="carousel-indicator" data-index="12"></button>
+      <button class="carousel-indicator" data-index="13"></button>
+      <button class="carousel-indicator" data-index="14"></button>
+      <button class="carousel-indicator" data-index="15"></button>
+      <button class="carousel-indicator" data-index="16"></button>
     </div>
 
     <!-- Arrows -->
