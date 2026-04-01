@@ -4,68 +4,6 @@ description: "Virtual Intelligence and Graphical Animation Laboratory"
 layout: "home"
 ---
 
-<!-- Photo Carousel -->
-<div id="photoCarousel" class="photo-carousel">
-  <div class="carousel-container">
-    <div class="carousel-slides">
-      <div class="carousel-slide">
-        <img src="/img/banner/team1.jpg" alt="VIGA Lab Team">
-      </div>
-      <div class="carousel-slide">
-        <img src="/img/banner/CGI2024.jpg" alt="CGI 2024">
-      </div>
-      <div class="carousel-slide">
-        <img src="/img/banner/I3D2024.jpg" alt="I3D 2024">
-      </div>
-      <div class="carousel-slide">
-        <img src="/img/banner/ICXR_2024_1.jpg" alt="ICXR 2024">
-      </div>
-      <div class="carousel-slide">
-        <img src="/img/banner/IEEEVR_2024_1.jpg" alt="IEEE VR 2024">
-      </div>
-      <div class="carousel-slide">
-        <img src="/img/banner/VR2025.jpg" alt="VR 2025">
-      </div>
-      <div class="carousel-slide">
-        <img src="/img/banner/ISMAR21-Z.png" alt="ISMAR 2021">
-      </div>
-      <div class="carousel-slide">
-        <img src="/img/banner/PG2024.jpg" alt="PG 2024">
-      </div>
-    </div>
-
-    <!-- Indicators -->
-    <div class="carousel-indicators">
-      <button class="carousel-indicator active" data-index="0"></button>
-      <button class="carousel-indicator" data-index="1"></button>
-      <button class="carousel-indicator" data-index="2"></button>
-      <button class="carousel-indicator" data-index="3"></button>
-      <button class="carousel-indicator" data-index="4"></button>
-      <button class="carousel-indicator" data-index="5"></button>
-      <button class="carousel-indicator" data-index="6"></button>
-      <button class="carousel-indicator" data-index="7"></button>
-    </div>
-
-    <!-- Arrows -->
-    <div class="carousel-arrows">
-      <button class="carousel-arrow carousel-prev">❮</button>
-      <button class="carousel-arrow carousel-next">❯</button>
-    </div>
-  </div>
-</div>
-
-<hr />
-
-<div class="home-profile" style="margin: 1.5rem 0 1.5rem 0; line-height: 1.5;">
-<p style="margin: 0 0 0.2rem 0; font-size: 1.15rem;"><strong>Yang Gao (高 阳)</strong></p>
-<p style="margin: 0 0 0.2rem 0;">Professor</p>
-<p style="margin: 0 0 0.2rem 0;"><a href="https://vrlab.buaa.edu.cn/" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">State Key Laboratory of Virtual Reality Technology and Systems</a></p>
-<p style="margin: 0 0 0.2rem 0;"><a href="https://scse.buaa.edu.cn/index.htm" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">School of Computer Science and Engineering</a></p>
-<p style="margin: 0 0 0.2rem 0;"><a href="https://buaa.edu.cn/" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">Beihang University</a></p>
-<p style="margin: 0;">Email: gaoyangvr [at] buaa [dot] edu [dot] cn</p>
-</div>
-
-<hr />
 
 <div class="home-news">
 
@@ -73,6 +11,18 @@ layout: "home"
 
 <table>
   <tbody>
+    <tr>
+      <td class="news-date"><em>2026/02</em></td>
+      <td>Three papers about rendering, virtual human Interaction and fluid simulation were accepted to IEEE VR 2026 (Xiang Cheng, Wencan and Yangbin).</td>
+    </tr>
+    <tr>
+      <td class="news-date"><em>2026/02</em></td>
+      <td>One paper about Intelligent Understanding of Surgical Videos has been accepted to CVPR 2026 (Fang).</td>
+    </tr>
+    <tr>
+      <td class="news-date"><em>2025/12</em></td>
+      <td>One paper about EEG based image classification has been accepted to ICLR 2026 (Jiawen and Ming).</td>
+    </tr>
     <tr>
       <td class="news-date"><em>2025/07</em></td>
       <td>One paper about 3D virtual human interaction is accepted to journal IJHCS (Yangbin Dai).</td>

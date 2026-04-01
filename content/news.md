@@ -4,6 +4,12 @@ description: "Latest news from VIGA Lab"
 hidemeta: true
 ---
 
+## 2026
+
+- **2026-02**: Three papers about rendering, virtual human Interaction and fluid simulation were accepted to IEEE VR 2026 (Xiang Cheng, Wencan and Yangbin).
+- **2026-02**: One paper about Intelligent Understanding of Surgical Videos has been accepted to CVPR 2026 (Fang).
+- **2025-12**: One paper about EEG based image classification has been accepted to ICLR 2026 (Jiawen and Ming).
+
 ## 2025
 
 - **2025-07**: One paper about 3D virtual human interaction is accepted to journal IJHCS (Yangbin Dai).

@@ -39,6 +39,12 @@ hidemeta: true
 <h4>Ming Li (李明)</h4>
 <p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> minglee@buaa.edu.cn</p>
 </div>
+
+<div>
+<img src="/img/portrait/ZJW.jpg" alt="Jiawen Zheng" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
+<h4>Jiawen Zheng (郑嘉文)</h4>
+<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> jzhengbx@gmail.com</p>
+</div>
 </div>
 
 ## Ph.D. Students
@@ -192,19 +198,6 @@ hidemeta: true
 <p style="font-size: 0.85rem; margin: 0.3rem 0;">首都师范大学信息工程学院2020级本科生，人工智能专业，研究方向为循环流体/动画生成研究。</p>
 </div>
 
-<div>
-<img src="/img/portrait/JZY.jpg" alt="Zhiyang Ji" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Zhiyang Ji (纪致炀)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> jiesam39@gmail.com</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2022级本科生，计算机科学与技术专业，研究方向为虚拟现实多物态仿真交互研究。</p>
-</div>
-
-<div>
-<img src="/img/portrait/HY.jpg" alt="Yang Hang" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Yang Hang (杭洋)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> hygebra2003@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学沈元学院2022级本科生，计算机科学与技术专业，研究方向为虚拟现实多通道感知交互。</p>
-</div>
 
 <div>
 <img src="/img/portrait/YH.jpg" alt="Hao You" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
@@ -213,12 +206,7 @@ hidemeta: true
 <p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2021级本科生，虚拟现实技术专业，研究方向为计算流体力学。</p>
 </div>
 
-<div>
-<img src="/img/portrait/ZJW.jpg" alt="Jiawen Zheng" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Jiawen Zheng (郑嘉文)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> jzhengbx@gmail.com</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2020级本科生，研究方向为多模态机器学习与可控图像生成。</p>
-</div>
+
 </div>
 
 ## Alumni
@@ -246,7 +234,10 @@ hidemeta: true
   </tbody>
 </table>
 
-<div id="alumni-more" style="display: none;">
+<div id="alumni-more">
+<details>
+<summary><strong>See more alumni</strong></summary>
+
 <table style="width: 100%; border-collapse: collapse;">
   <tbody>
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">程天伟</td><td style="padding: 10px;">2023.06</td><td style="padding: 10px;">交通银行</td><td style="padding: 10px;"></td></tr>
@@ -255,19 +246,6 @@ hidemeta: true
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">翟英男</td><td style="padding: 10px;">2022.01</td><td style="padding: 10px;">经纬恒润</td><td style="padding: 10px;">北航优秀研究生、北航优秀毕业生</td></tr>
   </tbody>
 </table>
+
+</details>
 </div>
-
-<button id="show-more-alumni" style="margin-top: 1rem; padding: 0.5rem 1rem; background-color: #0064c8; color: white; border: none; border-radius: 4px; cursor: pointer;">显示更多</button>
-
-<script>
-document.getElementById('show-more-alumni').addEventListener('click', function() {
-  var alumniMore = document.getElementById('alumni-more');
-  if (alumniMore.style.display === 'none') {
-    alumniMore.style.display = 'block';
-    this.textContent = '收起';
-  } else {
-    alumniMore.style.display = 'none';
-    this.textContent = '显示更多';
-  }
-});
-</script>
