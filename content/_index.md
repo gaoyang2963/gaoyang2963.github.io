@@ -13,6 +13,12 @@ layout: "home"
         <img src="/img/banner/team1.jpg" alt="VIGA Lab Team">
       </div>
       <div class="carousel-slide">
+        <img src="/img/banner/23.9.10Together.png" alt="VIGA Lab 2023">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/24.9.10Together.png" alt="VIGA Lab 2024">
+      </div>
+      <div class="carousel-slide">
         <img src="/img/banner/CGI2024.jpg" alt="CGI 2024">
       </div>
       <div class="carousel-slide">
@@ -22,16 +28,22 @@ layout: "home"
         <img src="/img/banner/ICXR_2024_1.jpg" alt="ICXR 2024">
       </div>
       <div class="carousel-slide">
+        <img src="/img/banner/ICXR_2024_2.png" alt="ICXR 2024">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/ICXR_2024_3.png" alt="ICXR 2024">
+      </div>
+      <div class="carousel-slide">
         <img src="/img/banner/IEEEVR_2024_1.jpg" alt="IEEE VR 2024">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/IEEEVR_2024_2.jpg" alt="IEEE VR 2024">
       </div>
       <div class="carousel-slide">
         <img src="/img/banner/VR2025.jpg" alt="VR 2025">
       </div>
       <div class="carousel-slide">
-        <img src="/img/banner/ISMAR21-Z.png" alt="ISMAR 2021">
-      </div>
-      <div class="carousel-slide">
-        <img src="/img/banner/PG2024.jpg" alt="PG 2024">
+        <img src="/img/banner/VR2026.jpg" alt="VR 2026">
       </div>
     </div>
 
@@ -45,6 +57,10 @@ layout: "home"
       <button class="carousel-indicator" data-index="5"></button>
       <button class="carousel-indicator" data-index="6"></button>
       <button class="carousel-indicator" data-index="7"></button>
+      <button class="carousel-indicator" data-index="8"></button>
+      <button class="carousel-indicator" data-index="9"></button>
+      <button class="carousel-indicator" data-index="10"></button>
+      <button class="carousel-indicator" data-index="11"></button>
     </div>
 
     <!-- Arrows -->
