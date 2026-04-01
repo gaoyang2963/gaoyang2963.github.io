@@ -103,17 +103,35 @@ hidemeta: true
 <p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2025级博士，计算机科学与技术，研究方向：计算机辅助医学。</p>
 </div>
 </div>
+
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/YDT.jpg" alt="Deteng Yan" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Deteng Yan (闫德腾)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> ydeteng@163.com</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2026级博士，计算机科学与技术，研究方向：计算机图形学与物理仿真。</p>
+</div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/HMT.jpg" alt="Mengting Hu" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Mengting Hu (胡梦婷)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> mengtinghu0520@gmail.com</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2026级直博生，计算机科学与技术。</p>
+</div>
+</div>
 </div>
 
 ## Master Students
 
-<div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2rem;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
 <div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/SZL.jpg" alt="Zilong Song" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Zilong Song (宋子龙)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> dyb2306401@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士生，计算机科学与技术专业，研究方向：三维场景重建。</p>
+<img src="/img/portrait/SZL.jpg" alt="Zilong Song" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Zilong Song (宋子龙)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> dyb2306401@buaa.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2023级硕士，计算机科学与技术，研究方向：三维场景重建。</p>
 </div>
 </div>
 
@@ -199,11 +217,11 @@ hidemeta: true
 </div>
 
 <div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/HJH.jpg" alt="Jiahao Hu" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Jiahao Hu (胡珈皓)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> hujh200368@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2025级硕士研究生，计算机科学与技术专业，研究方向为脑电分析、虚拟现实。</p>
+<img src="/img/portrait/HJH.jpg" alt="Jiahao Hu" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Jiahao Hu (胡珈皓)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> hujh200368@163.com</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2025级硕士，计算机科学与技术，研究方向：脑电分析、虚拟现实。</p>
 </div>
 </div>
 
@@ -217,39 +235,54 @@ hidemeta: true
 </div>
 
 <div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/ZS.jpg" alt="Shuang Zheng" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Shuang Zheng (郑爽)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> zszszszsf2021@163.com</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2025级硕士研究生，计算机科学与技术专业，研究方向：数字人。</p>
+<img src="/img/portrait/ZS.jpg" alt="Shuang Zheng" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Shuang Zheng (郑爽)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> zszszszsf2021@163.com</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2025级硕士，计算机科学与技术，研究方向：数字人。</p>
+</div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/WYT.jpg" alt="Yuting Wang" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Yuting Wang (王宇汀)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> yutingwang@buaa.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2026级硕士，计算机科学与技术，研究方向：物理仿真。</p>
 </div>
 </div>
 </div>
 
 ## Intern Students
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
-<div>
-<img src="/img/portrait/ZXC.jpg" alt="Xiangcheng Zhai" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Xiangcheng Zhai (翟相程)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> 1201004021@cnu.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">首都师范大学信息工程学院2020级本科生，人工智能专业，研究方向为循环流体/动画生成研究。</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/ZXC.jpg" alt="Xiangcheng Zhai" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Xiangcheng Zhai (翟相程)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> 1201004021@cnu.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">首都师范大学2020级本科生，人工智能，研究方向：循环流体/动画生成。</p>
+</div>
 </div>
 
 
-<div>
-<img src="/img/portrait/YH.jpg" alt="Hao You" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Hao You (游好)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> 21371065@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2021级本科生，虚拟现实技术专业，研究方向为计算流体力学。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/YH.jpg" alt="Hao You" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Hao You (游好)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> 21371065@buaa.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2021级本科生，虚拟现实技术，研究方向：计算流体力学。</p>
+</div>
 </div>
 
 
-<div>
-<img src="/img/portrait/CMJ.jpg" alt="Mingjie Chen" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
-<h4>Mingjie Cui (崔明杰)</h4>
-<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> 24371111@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2024级本科生，计算机科学与技术专业，研究方向为智能流体仿真。</p>
+<div style="display: flex; align-items: center; gap: 1rem;">
+<img src="/img/portrait/CMJ.jpg" alt="Mingjie Cui" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+<div style="line-height: 1.35; min-width: 0;">
+<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Mingjie Cui (崔明杰)</h4>
+<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> 24371111@buaa.edu.cn</p>
+<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2024级本科生，计算机科学与技术，研究方向：智能流体仿真。</p>
+</div>
 </div>
 
 
