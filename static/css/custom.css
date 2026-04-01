@@ -132,27 +132,38 @@
     color: #ddd;
 }
 
-/* Carousel Description Section */
-.carousel-description {
-    max-width: 800px;
-    margin: 1rem auto;
-    padding: 0 1rem;
-    text-align: center;
+/* About Us Section */
+.home-about {
+    margin: 1.5rem 0;
+    max-width: 900px;
 }
 
-.carousel-description p {
+.home-about h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.home-about p {
     font-size: 0.95rem;
-    line-height: 1.7;
+    line-height: 1.8;
     color: #555;
     margin: 0;
 }
 
 @media (prefers-color-scheme: dark) {
-    .carousel-description p {
+    .home-about h5 {
+        color: #eee;
+    }
+    .home-about p {
         color: #aaa;
     }
 }
 
-[data-theme='dark'] .carousel-description p {
+[data-theme='dark'] .home-about h5 {
+    color: #eee;
+}
+
+[data-theme='dark'] .home-about p {
     color: #aaa;
 }
