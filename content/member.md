@@ -6,15 +6,15 @@ hidemeta: true
 
 ## Faculty
 
-<div style="display: flex; align-items: start; gap: 1.5rem; margin-bottom: 2rem;">
+<div style="display: flex; align-items: flex-end; gap: 1.5rem; margin-bottom: 2rem;">
 <img src="/img/portrait/GY.jpg" alt="Yang Gao" style="width: 200px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<div style="flex: 1;">
-<h3>Yang Gao (高 阳)</h3>
-<p><strong>Professor</strong></p>
-<p><a href="https://vrlab.buaa.edu.cn/" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">State Key Laboratory of Virtual Reality Technology and Systems</a></p>
-<p><a href="https://scse.buaa.edu.cn/index.htm" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">School of Computer Science and Engineering</a></p>
-<p><a href="https://buaa.edu.cn/" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">Beihang University</a></p>
-<p><strong>Email:</strong> gaoyangvr [at] buaa [dot] edu [dot] cn</p>
+<div style="flex: 1; line-height: 1.4;">
+<h3 style="margin: 0 0 0.15rem 0;">Yang Gao (高 阳)</h3>
+<p style="margin: 0.15rem 0;"><strong>Professor</strong></p>
+<p style="margin: 0.15rem 0;"><a href="https://vrlab.buaa.edu.cn/" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">State Key Laboratory of Virtual Reality Technology and Systems</a></p>
+<p style="margin: 0.15rem 0;"><a href="https://scse.buaa.edu.cn/index.htm" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">School of Computer Science and Engineering</a></p>
+<p style="margin: 0.15rem 0;"><a href="https://buaa.edu.cn/" target="_blank" style="color: #0064c8; text-decoration: none; font-weight: 500;">Beihang University</a></p>
+<p style="margin: 0.15rem 0;"><strong>Email:</strong> gaoyangvr [at] buaa [dot] edu [dot] cn</p>
 </div>
 </div>
 
