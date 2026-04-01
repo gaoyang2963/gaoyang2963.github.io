@@ -5,6 +5,58 @@ layout: "home"
 ---
 
 
+<!-- Photo Carousel -->
+<div id="photoCarousel" class="photo-carousel">
+  <div class="carousel-container">
+    <div class="carousel-slides">
+      <div class="carousel-slide">
+        <img src="/img/banner/team1.jpg" alt="VIGA Lab Team">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/CGI2024.jpg" alt="CGI 2024">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/I3D2024.jpg" alt="I3D 2024">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/ICXR_2024_1.jpg" alt="ICXR 2024">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/IEEEVR_2024_1.jpg" alt="IEEE VR 2024">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/VR2025.jpg" alt="VR 2025">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/ISMAR21-Z.png" alt="ISMAR 2021">
+      </div>
+      <div class="carousel-slide">
+        <img src="/img/banner/PG2024.jpg" alt="PG 2024">
+      </div>
+    </div>
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button class="carousel-indicator active" data-index="0"></button>
+      <button class="carousel-indicator" data-index="1"></button>
+      <button class="carousel-indicator" data-index="2"></button>
+      <button class="carousel-indicator" data-index="3"></button>
+      <button class="carousel-indicator" data-index="4"></button>
+      <button class="carousel-indicator" data-index="5"></button>
+      <button class="carousel-indicator" data-index="6"></button>
+      <button class="carousel-indicator" data-index="7"></button>
+    </div>
+
+    <!-- Arrows -->
+    <div class="carousel-arrows">
+      <button class="carousel-arrow carousel-prev">❮</button>
+      <button class="carousel-arrow carousel-next">❯</button>
+    </div>
+  </div>
+</div>
+
+<hr />
+
 <div class="home-news">
 
 <h5 id="-news"><span class="news-icon">📣</span> <strong>News</strong></h5>
