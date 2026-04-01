@@ -44,6 +44,9 @@ layout: "home"
       </div>
       <div class="carousel-slide">
         <img src="/img/banner/VR2026.jpg" alt="VR 2026">
+        <img src="/img/banner/xxgby.jpg" alt="Xueguang Xie Graduation">
+        <img src="/img/banner/ljby.jpg" alt="Li Jin Graduation">
+        <img src="/img/banner/qyhmby.jpg" alt="Qu Qingyue Graduation">
       </div>
     </div>
 
