@@ -245,6 +245,14 @@ hidemeta: true
 </div>
 
 
+<div>
+<img src="/img/portrait/CMJ.jpg" alt="Mingjie Chen" style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 0.5rem;">
+<h4>Mingjie Chen (陈明杰)</h4>
+<p style="font-size: 0.9rem; margin: 0.3rem 0;"><strong>Email:</strong> 24371111@buaa.edu.cn</p>
+<p style="font-size: 0.85rem; margin: 0.3rem 0;">北京航空航天大学计算机学院2024级本科生，计算机科学与技术专业，研究方向为智能流体仿真。</p>
+</div>
+
+
 </div>
 
 ## Alumni
