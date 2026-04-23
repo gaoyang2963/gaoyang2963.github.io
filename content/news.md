@@ -18,7 +18,7 @@ hidemeta: true
 - **2025-05**: Hongming Bai and Qingyue Qu have defended their master dissertations and graduated.
 - **2025-04**: Pro. Gao will serve as a WEB CHAIR of IEEE VR 2026.
 - **2025-04**: One paper about soft body simulation is accepted to SIGGRAPH 2025 (Chunlei Li).
-- **2025-03**: Wencan Li won the IEEE VR 2025 Honorable Best Paper Mention Awards.
+- **2025-03**: 🎉 Wencan Li won the IEEE VR 2025 Honorable Best Paper Mention Awards.
 - **2025-03**: Two papers about VR rendering and virtual agent are accepted to IEEE VR 2025 (Wencan Li and Yangbin Dai).
 - **2025-03**: One paper is accepted to the authoritative journal in the field of Neuroplasticity and rehabilitation (Hongming Bai).
 - **2025-02**: Pro. Gao is invited to serve as the Session Chair at IEEE VR 2025.

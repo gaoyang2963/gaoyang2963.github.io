@@ -147,7 +147,7 @@ layout: "home"
     </tr>
     <tr>
       <td class="news-date"><em>2025/03</em></td>
-      <td><strong style="color:#c0392b;">Wencan Li won the IEEE VR 2025 Honorable Best Paper Mention Awards.</strong></td>
+      <td><strong style="color:#c0392b;">🎉 Wencan Li won the IEEE VR 2025 Honorable Best Paper Mention Awards.</strong></td>
     </tr>
     <tr>
       <td class="news-date"><em>2025/03</em></td>
