@@ -44,6 +44,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          HUGO_PARAMS_VISITORTOKEN: ${{ secrets.VISITOR_TOKEN }}
         run: |
           hugo \
             --gc \

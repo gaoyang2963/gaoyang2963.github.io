@@ -11,6 +11,10 @@
 </div>
 {{- end }}
 
+{{- if site.Params.visitorToken }}
+<script>window.VISITOR_TOKEN = {{ site.Params.visitorToken | jsonify }};</script>
+{{- end }}
+
 {{- else }}
 
 <header class="page-header">

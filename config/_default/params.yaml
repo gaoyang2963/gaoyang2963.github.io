@@ -69,3 +69,6 @@ label:
 # Custom CSS/JS
 customCSS: ["/css/custom.css"]
 customJS: ["/js/photo-carousel.js", "/js/visitor-map.js"]
+
+# Visitor token (injected via HUGO_PARAMS_VISITORTOKEN env var at build time)
+visitorToken: ""
