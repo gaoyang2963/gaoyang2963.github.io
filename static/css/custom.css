@@ -167,3 +167,29 @@
 [data-theme='dark'] .home-about p {
     color: #aaa;
 }
+
+/* Alumni Section - Smaller font sizes */
+#alumni-more table,
+#alumni-more table td,
+#alumni-more table th {
+    font-size: 0.85rem !important;
+    line-height: 1.5;
+}
+
+#alumni-more details summary {
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: #555;
+}
+
+#alumni-more details summary:hover {
+    color: #0064c8;
+}
+
+@media (max-width: 768px) {
+    #alumni-more table,
+    #alumni-more table td,
+    #alumni-more table th {
+        font-size: 0.8rem !important;
+    }
+}
