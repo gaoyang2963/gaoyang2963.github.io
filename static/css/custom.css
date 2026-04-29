@@ -169,6 +169,17 @@
 }
 
 /* Alumni Section - Smaller font sizes */
+#alumni-list table,
+#alumni-list table td,
+#alumni-list table th {
+    font-size: 0.85rem !important;
+    line-height: 1.5;
+}
+
+#alumni-list th {
+    font-size: 0.9rem !important;
+}
+
 #alumni-more table,
 #alumni-more table td,
 #alumni-more table th {

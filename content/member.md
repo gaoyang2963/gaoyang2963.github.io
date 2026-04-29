@@ -308,6 +308,7 @@ hidemeta: true
 
 ## Alumni
 
+<div id="alumni-list">
 <table style="width: 100%; border-collapse: collapse; margin-bottom: 1rem;">
   <thead>
     <tr style="background-color: #f5f5f5;">
