@@ -288,6 +288,21 @@ layout: "home"
 
 <ul>
   <li>
+    <p><strong>[TVCG '26]</strong> Yang Gao, Yangbin Dai, Guangtao Zhang, Honglei Guo, Fariba Mostajeran, Frank Steinicke, Lin Li, Binge Zheng, Tao Yu.
+    What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice. IEEE Transactions on Visualization and Computer Graphics, 2026.
+    [<a href="https://doi.org/10.1109/TVCG.2026.3680715">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[TVCG '26]</strong> Y Gao, W Li, S Liang, W Feng, Q Xia, S Li, A Hao.
+    Deep-Saliency Foveated Ray Tracing for Real-time VR Rendering. IEEE Transactions on Visualization and Computer Graphics, 2026.
+    [<a href="https://doi.org/10.1109/TVCG.2026.3679110">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[TVCG '26]</strong> Na Jiang, Xiangcheng Zhai, Yuxuan Qiu, Xiaohui Tan, Aimin Hao, Yang Gao.
+    Generating Audiovisual Synergy Fluid Animation for Highly Immersive VR Experience. IEEE Transactions on Visualization and Computer Graphics, 2026.
+    [<a href="https://doi.org/10.1109/TVCG.2026.3679130">Paper</a>]</p>
+  </li>
+  <li>
     <p><strong>[TVCG '25]</strong> Gao Yang, Dai Yangbin, Zhang Guangtao, Guo Honglei, Fariba Mostajeran, Zheng Binge, Yu Tao.
     Trust in Virtual Agents: Exploring the Role of Stylization and Voice. IEEE Transactions on Visualization and Computer Graphics, 2025.
     [<a href="https://doi.org/10.1109/TVCG.2025.3549566">Paper</a>]</p>
