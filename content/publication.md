@@ -4,6 +4,23 @@ description: "Publications from VIGA Lab"
 hidemeta: true
 ---
 
+## 2026
+
+- **What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice**  
+  Yang Gao, Yangbin Dai, Guangtao Zhang, Honglei Guo, Fariba Mostajeran, Frank Steinicke, Lin Li, Binge Zheng, Tao Yu  
+  IEEE Transactions on Visualization and Computer Graphics  
+  [Paper Link](https://doi.org/10.1109/TVCG.2026.3680715)
+
+- **Deep-Saliency Foveated Ray Tracing for Real-time VR Rendering**  
+  Y Gao, W Li, S Liang, W Feng, Q Xia, S Li, A Hao  
+  IEEE Transactions on Visualization and Computer Graphics  
+  [Paper Link](https://doi.org/10.1109/TVCG.2026.3679110)
+
+- **Generating Audiovisual Synergy Fluid Animation for Highly Immersive VR Experience**  
+  Na Jiang, Xiangcheng Zhai, Yuxuan Qiu, Xiaohui Tan, Aimin Hao, Yang Gao  
+  IEEE Transactions on Visualization and Computer Graphics  
+  [Paper Link](https://doi.org/10.1109/TVCG.2026.3679130)
+
 ## 2025
 
 - **Trust in Virtual Agents: Exploring the Role of Stylization and Voice**  
