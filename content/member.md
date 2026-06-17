@@ -126,50 +126,6 @@ hidemeta: true
 ## Master Students
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
-<div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/SZL.jpg" alt="Zilong Song" style="width: 90px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.35; min-width: 0;">
-<h4 style="margin: 0 0 0.1rem 0; font-size: 0.95rem;">Zilong Song (宋子龙)</h4>
-<p style="font-size: 0.82rem; margin: 0.1rem 0;"><strong>Email:</strong> dyb2306401@buaa.edu.cn</p>
-<p style="font-size: 0.8rem; margin: 0.1rem 0; color: #555;">2023级硕士，计算机科学与技术，研究方向：三维场景重建。</p>
-</div>
-</div>
-
-<div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/DYB.jpg" alt="Yangbin Dai" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Yangbin Dai (戴阳彬)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> dyb2306401@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士生，计算机科学与技术专业，研究方向：数字人。</p>
-</div>
-</div>
-
-<div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/XLJ.png" alt="Lingjing Xu" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Lingjing Xu (徐灵婧)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> xulingjing@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士研究生，电子信息专业，研究方向：人物交互。</p>
-</div>
-</div>
-
-<div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/SDK.png" alt="Dakun Sun" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Dakun Sun (孙大琨)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> 19373230@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士研究生，计算机科学与技术专业，研究方向为计算机图形学。</p>
-</div>
-</div>
-
-<div style="display: flex; align-items: center; gap: 1rem;">
-<img src="/img/portrait/LYC.jpg" alt="Yuecheng Li" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-<div style="line-height: 1.4;">
-<h4 style="margin: 0 0 0.15rem 0;">Yuecheng Li (李岳成)</h4>
-<p style="font-size: 0.9rem; margin: 0.15rem 0;"><strong>Email:</strong> ycli2023@buaa.edu.cn</p>
-<p style="font-size: 0.85rem; margin: 0.15rem 0; color: #555;">北京航空航天大学计算机学院2023级硕士研究生，计算机科学与技术专业，研究方向为虚拟现实及人工智能。</p>
-</div>
-</div>
 
 <div style="display: flex; align-items: center; gap: 1rem;">
 <img src="/img/portrait/XH.jpg" alt="Hang Xu" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
@@ -319,6 +275,11 @@ hidemeta: true
     </tr>
   </thead>
   <tbody>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">宋子龙</td><td style="padding: 10px;">2026.06</td><td style="padding: 10px;">中国核能电力股份有限公司</td><td style="padding: 10px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">戴阳斌</td><td style="padding: 10px;">2026.06</td><td style="padding: 10px;">中国农业银行研发中心</td><td style="padding: 10px;">国家奖学金；北航优秀硕士论文</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">徐灵婧</td><td style="padding: 10px;">2026.06</td><td style="padding: 10px;">字节跳动</td><td style="padding: 10px;">国家奖学金</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">孙大琨</td><td style="padding: 10px;">2026.06</td><td style="padding: 10px;">米哈游</td><td style="padding: 10px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">李岳成</td><td style="padding: 10px;">2026.06</td><td style="padding: 10px;">美团</td><td style="padding: 10px;"></td></tr>
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">李瑾</td><td style="padding: 10px;">2025.06</td><td style="padding: 10px;">北方工业大学</td><td style="padding: 10px;">北航研究生优秀学术创新成果奖</td></tr>
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">白洪铭</td><td style="padding: 10px;">2025.06</td><td style="padding: 10px;">中国航空工业集团沈阳飞机设计研究所</td><td style="padding: 10px;">优秀研究生</td></tr>
     <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">曲清越</td><td style="padding: 10px;">2025.06</td><td style="padding: 10px;">阿里云</td><td style="padding: 10px;">北航优秀团员</td></tr>
