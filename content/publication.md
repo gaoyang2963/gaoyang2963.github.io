@@ -6,6 +6,11 @@ hidemeta: true
 
 ## 2026
 
+- **EmoPoseFace: Head Pose Aware Speech-driven 3D Emotional Facial Animation Using Latent Diffusion**  
+  Xin Zhao, Ju Dai, Feng Zhou, Haofei Wang, Zhenfeng Song, Aimin Hao, Hong Qin, Yang Gao  
+  IEEE Transactions on Visualization and Computer Graphics  
+  [Paper Link](https://doi.org/10.1109/TVCG.2026.3702133)
+
 - **What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice**  
   Yang Gao, Yangbin Dai, Guangtao Zhang, Honglei Guo, Fariba Mostajeran, Frank Steinicke, Lin Li, Binge Zheng, Tao Yu  
   IEEE Transactions on Visualization and Computer Graphics  
@@ -20,6 +25,11 @@ hidemeta: true
   Na Jiang, Xiangcheng Zhai, Yuxuan Qiu, Xiaohui Tan, Aimin Hao, Yang Gao  
   IEEE Transactions on Visualization and Computer Graphics  
   [Paper Link](https://doi.org/10.1109/TVCG.2026.3679130)
+
+- **Learning Brain Representation with Hierarchical Visual Embeddings**  
+  Jiawen Zheng, Haonan Jia, Ming Li, Yuhui Zheng, Yufeng Zeng, Yang Gao, Chen Liang  
+  International Conference on Learning Representations (ICLR 2026)  
+  [Paper Link](https://iclr.cc/virtual/2026/poster/10010322)
 
 ## 2025
 

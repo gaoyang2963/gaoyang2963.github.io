@@ -6,6 +6,7 @@ hidemeta: true
 
 ## 2026
 
+- **2026-06**: One paper about speech-driven 3D emotional facial animation with head pose awareness has been accepted to TVCG (Xin Zhao).
 - **2026-02**: Three papers about rendering, virtual human Interaction and fluid simulation were accepted to IEEE VR 2026 (Xiang Cheng, Wencan and Yangbin).
 - **2026-02**: One paper about Intelligent Understanding of Surgical Videos has been accepted to CVPR 2026 (Fang).
 - **2025-12**: One paper about EEG based image classification has been accepted to ICLR 2026 (Jiawen and Ming).
