@@ -49,6 +49,9 @@ layout: "home"
         <img src="/img/banner/VR26ZXC.jpg" alt="VR 2026 ZXC">
       </div>
       <div class="carousel-slide">
+        <img src="/img/banner/graduation_2026.jpg" alt="VIGA Lab 2026 Graduation">
+      </div>
+      <div class="carousel-slide">
         <img src="/img/banner/VR26LWC.jpg" alt="VR 2026 LWC">
       </div>
       <div class="carousel-slide">
