@@ -288,6 +288,16 @@ layout: "home"
 
 <ul>
   <li>
+    <p><strong>[CVPR '26]</strong> Fang Li, Shihao Zou, Weixin Si, Yang Gao, Shuai Li, Aimin Hao.
+    TRCoRSurg: Temporal-Relational Co-Reasoning for Surgical Video Triplet Recognition. IEEE/CVF CVPR 2026.
+    [<a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Li_TRCoRSurg_Temporal-Relational_Co-Reasoning_for_Surgical_Video_Triplet_Recognition_CVPR_2026_paper.pdf">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[ICLR '26]</strong> Jiawen Zheng, Haonan Jia, Ming Li, Yuhui Zheng, Yufeng Zeng, Yang Gao, Chen Liang.
+    Learning Brain Representation with Hierarchical Visual Embeddings. ICLR 2026.
+    [<a href="https://openreview.net/forum?id=IEq71qS8B7">Paper</a>]</p>
+  </li>
+  <li>
     <p><strong>[TVCG '26]</strong> Yang Gao, Yangbin Dai, Guangtao Zhang, Honglei Guo, Fariba Mostajeran, Frank Steinicke, Lin Li, Binge Zheng, Tao Yu.
     What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice. IEEE Transactions on Visualization and Computer Graphics, 2026.
     [<a href="https://doi.org/10.1109/TVCG.2026.3680715">Paper</a>]</p>
