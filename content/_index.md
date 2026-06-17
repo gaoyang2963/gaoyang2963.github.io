@@ -292,22 +292,22 @@ layout: "home"
 
 <ul>
   <li>
-    <p><strong>[CVPR '26]</strong> Fang Li, Shihao Zou, Weixin Si, Yang Gao, Shuai Li, Aimin Hao.
+    <p><strong>[CVPR '26]</strong> F Li, S Zou, W Si, Y Gao, S Li, A Hao.
     TRCoRSurg: Temporal-Relational Co-Reasoning for Surgical Video Triplet Recognition. IEEE/CVF CVPR 2026.
     [<a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Li_TRCoRSurg_Temporal-Relational_Co-Reasoning_for_Surgical_Video_Triplet_Recognition_CVPR_2026_paper.pdf">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[ICLR '26]</strong> Jiawen Zheng, Haonan Jia, Ming Li, Yuhui Zheng, Yufeng Zeng, Yang Gao, Chen Liang.
+    <p><strong>[ICLR '26]</strong> J Zheng, H Jia, M Li, Y Zheng, Y Zeng, Y Gao, C Liang.
     Learning Brain Representation with Hierarchical Visual Embeddings. ICLR 2026.
     [<a href="https://openreview.net/forum?id=IEq71qS8B7">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[TVCG '26]</strong> Xin Zhao, Ju Dai, Feng Zhou, Haofei Wang, Zhenfeng Song, Aimin Hao, Hong Qin, Yang Gao.
+    <p><strong>[TVCG '26]</strong> X Zhao, J Dai, F Zhou, H Wang, Z Song, A Hao, H Qin, Y Gao.
     EmoPoseFace: Head Pose Aware Speech-driven 3D Emotional Facial Animation Using Latent Diffusion. IEEE Transactions on Visualization and Computer Graphics, 2026.
     [<a href="https://doi.org/10.1109/TVCG.2026.3702133">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[TVCG '26]</strong> Yang Gao, Yangbin Dai, Guangtao Zhang, Honglei Guo, Fariba Mostajeran, Frank Steinicke, Lin Li, Binge Zheng, Tao Yu.
+    <p><strong>[TVCG '26]</strong> Y Gao, Y Dai, G Zhang, H Guo, F Mostajeran, F Steinicke, L Li, B Zheng, T Yu.
     What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice. IEEE Transactions on Visualization and Computer Graphics, 2026.
     [<a href="https://doi.org/10.1109/TVCG.2026.3680715">Paper</a>]</p>
   </li>
@@ -317,22 +317,22 @@ layout: "home"
     [<a href="https://doi.org/10.1109/TVCG.2026.3679110">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[TVCG '26]</strong> Na Jiang, Xiangcheng Zhai, Yuxuan Qiu, Xiaohui Tan, Aimin Hao, Yang Gao.
+    <p><strong>[TVCG '26]</strong> N Jiang, X Zhai, Y Qiu, X Tan, A Hao, Y Gao.
     Generating Audiovisual Synergy Fluid Animation for Highly Immersive VR Experience. IEEE Transactions on Visualization and Computer Graphics, 2026.
     [<a href="https://doi.org/10.1109/TVCG.2026.3679130">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[TVCG '25]</strong> Gao Yang, Dai Yangbin, Zhang Guangtao, Guo Honglei, Fariba Mostajeran, Zheng Binge, Yu Tao.
+    <p><strong>[TVCG '25]</strong> Y Gao, Y Dai, G Zhang, H Guo, F Mostajeran, B Zheng, T Yu.
     Trust in Virtual Agents: Exploring the Role of Stylization and Voice. IEEE Transactions on Visualization and Computer Graphics, 2025.
     [<a href="https://doi.org/10.1109/TVCG.2025.3549566">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[NeuroEngRehabil '25]</strong> Yanqing Xiao, Yang Gao, Hongming Bai, Guiyun Song, Hanming Wang, Jia-Sheng Rao, Aimin Hao, Xiaoguang Li, Jia Zheng.
+    <p><strong>[NeuroEngRehabil '25]</strong> Y Xiao, Y Gao, H Bai, G Song, H Wang, JS Rao, A Hao, X Li, J Zheng.
     Impact of an upper limb motion-driven virtual rehabilitation system on residual motor function in patients with complete spinal cord injury: a pilot study. NeuroEngineering and Rehabilitation 22, 48, 2025.
     [<a href="https://doi.org/10.1186/s12984-025-01587-y">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[Front. Neurol. '25]</strong> Yanqing Xiao, Yang Gao, Hongming Bai, Ning Li, Xiao E. Cai, Jia-Sheng Rao, Aimin Hao, Xiaoguang Li, Jia Zheng.
+    <p><strong>[Front. Neurol. '25]</strong> Y Xiao, Y Gao, H Bai, N Li, XE Cai, JS Rao, A Hao, X Li, J Zheng.
     Vivid illusions and realtime feedback in VR-improved motor imagery and motivation of stroke patients with impaired motor imagery. Frontiers in Neurology, Volume 16, 2025.
     [<a href="https://doi.org/10.3389/fneur.2025.1629587">Paper</a>]</p>
   </li>
@@ -352,7 +352,7 @@ layout: "home"
     [<a href="https://doi.org/10.1109/TVCG.2024.3507952">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[ACM MM '24]</strong> Xiangcheng Zhai, Yingqi Jie, Xueguang Xie, Aimin Hao, Na Jiang, Yang Gao.
+    <p><strong>[ACM MM '24]</strong> X Zhai, Y Jie, X Xie, A Hao, N Jiang, Y Gao.
     ANFluid: Animate Natural Fluid Photos base on Physics-Aware Simulation and Dual-Flow Texture Learning. ACM Multimedia 2024.
     [<a href="https://dl.acm.org/doi/10.1145/3664647.3680950">Paper</a>]</p>
   </li>
@@ -392,7 +392,7 @@ layout: "home"
     [<a href="https://ieeexplore.ieee.org/abstract/document/9873987">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[VRW '22]</strong> Yang Gao, Anqi Chen, Susan Chi, Guangtao Zhang, Aimin Hao.
+    <p><strong>[VRW '22]</strong> Y Gao, A Chen, S Chi, G Zhang, A Hao.
     Analysis of emotional tendency and syntactic properties of VR game reviews. IEEE VRW 2022.
     [<a href="https://doi.org/10.1109/VRW55077.2022.9757537">Paper</a>]</p>
   </li>
