@@ -110,6 +110,10 @@ layout: "home"
 <table>
   <tbody>
     <tr>
+      <td class="news-date"><em>2026/06</em></td>
+      <td>One paper about speech-driven 3D emotional facial animation with head pose awareness has been accepted to TVCG (Xin Zhao).</td>
+    </tr>
+    <tr>
       <td class="news-date"><em>2026/02</em></td>
       <td>Three papers about rendering, virtual human Interaction and fluid simulation were accepted to IEEE VR 2026 (Xiang Cheng, Wencan and Yangbin).</td>
     </tr>
@@ -296,6 +300,11 @@ layout: "home"
     <p><strong>[ICLR '26]</strong> Jiawen Zheng, Haonan Jia, Ming Li, Yuhui Zheng, Yufeng Zeng, Yang Gao, Chen Liang.
     Learning Brain Representation with Hierarchical Visual Embeddings. ICLR 2026.
     [<a href="https://openreview.net/forum?id=IEq71qS8B7">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[TVCG '26]</strong> Xin Zhao, Ju Dai, Feng Zhou, Haofei Wang, Zhenfeng Song, Aimin Hao, Hong Qin, Yang Gao.
+    EmoPoseFace: Head Pose Aware Speech-driven 3D Emotional Facial Animation Using Latent Diffusion. IEEE Transactions on Visualization and Computer Graphics, 2026.
+    [<a href="https://doi.org/10.1109/TVCG.2026.3702133">Paper</a>]</p>
   </li>
   <li>
     <p><strong>[TVCG '26]</strong> Yang Gao, Yangbin Dai, Guangtao Zhang, Honglei Guo, Fariba Mostajeran, Frank Steinicke, Lin Li, Binge Zheng, Tao Yu.
