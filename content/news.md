@@ -6,6 +6,7 @@ hidemeta: true
 
 ## 2026
 
+- **2026-08**: VoxStruct3D (3D MRI synthesis via flow matching) has been released on arXiv; two papers have been published in IEEE Transactions on Affective Computing and The Visual Computer (Ming Li, Xin Zhao).
 - **2026-06**: One paper about speech-driven 3D emotional facial animation with head pose awareness has been accepted to TVCG (Xin Zhao).
 - **2026-02**: Three papers about rendering, virtual human Interaction and fluid simulation were accepted to IEEE VR 2026 (Xiang Cheng, Wencan and Yangbin).
 - **2026-02**: One paper about Intelligent Understanding of Surgical Videos has been accepted to CVPR 2026 (Fang).

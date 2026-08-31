@@ -325,6 +325,41 @@ layout: "home"
     [<a href="https://doi.org/10.1109/TVCG.2026.3679130">Paper</a>]</p>
   </li>
   <li>
+    <p><strong>[TAC '26]</strong> M Li, J Pan, D Ju, W Wu, A Hao, YJ Liu, Y Gao.
+    STMAE-Few: A Spatial-Temporal Masked Autoencoder for Few-channel EEG-based Emotion Recognition. IEEE Transactions on Affective Computing, 2026.
+    [<a href="https://doi.org/10.1109/TAFFC.2026.3719828">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[Vis. Comput. '26]</strong> X Zhao, J Dai, F Zhou, H Wang, A Hao, J Pan, Y Gao.
+    EmoDiffuser: Emotional Diffuser for Speech-driven 3D Facial Animation. The Visual Computer, 2026.
+    [<a href="https://doi.org/10.1007/s00371-026-04623-7">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[arXiv '26]</strong> F Li, Y Gao, S Zou, W Si, H Wu, Q Xia, S Li, A Hao.
+    VoxStruct3D: Structure-Leading Flow Matching for Voxel-Space 3D MRI Synthesis. arXiv preprint arXiv:2608.04557, 2026.
+    [<a href="https://doi.org/10.48550/arXiv.2608.04557">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[Sci. China '26]</strong> H Jiang, Y Liu, N Zhu, G Ye, Y Sun, X Wang, M Li, Y Gao, S Li.
+    Prior study on multimodal assessment and intervention of subthreshold depression in flight safety personnel. Science China Technological Sciences, 2026.
+    [<a href="https://doi.org/10.1007/s11431-025-3231-6">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[CVPR '25]</strong> J Jiang, W Xiao, Z Lin, H Zhang, T Ren, Y Gao, Z Lin, Z Cai, L Yang, Z Liu.
+    SOLAMI: Social Vision-Language-Action Modeling for Immersive Interaction with 3D Autonomous Characters. IEEE/CVF CVPR 2025.
+    [<a href="https://doi.org/10.1109/CVPR52734.2025.02504">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[IJHCS '25]</strong> Y Gao, Y Dai, G Zhang, H Guo, A Hao, S Li.
+    Effects of interaction modalities and emotional states on user's perceived empathy with an LLM-based embodied conversational agent. International Journal of Human-Computer Studies, 2025.
+    [<a href="https://doi.org/10.1016/j.ijhcs.2025.103585">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[Vis. Comput. '25]</strong> P Yu, Z Ji, A Hao, Y Gao.
+    Real-time immersive haptic sculpting with elastoplastic virtual clay. The Visual Computer, 2025.
+    [<a href="https://doi.org/10.1007/s00371-025-03986-7">Paper</a>]</p>
+  </li>
+  <li>
     <p><strong>[TVCG '25]</strong> Y Gao, Y Dai, G Zhang, H Guo, F Mostajeran, B Zheng, T Yu.
     Trust in Virtual Agents: Exploring the Role of Stylization and Voice. IEEE Transactions on Visualization and Computer Graphics, 2025.
     [<a href="https://doi.org/10.1109/TVCG.2025.3549566">Paper</a>]</p>

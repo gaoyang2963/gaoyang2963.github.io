@@ -31,7 +31,42 @@ hidemeta: true
   International Conference on Learning Representations (ICLR 2026)  
   [Paper Link](https://iclr.cc/virtual/2026/poster/10010322)
 
+- **STMAE-Few: A Spatial-Temporal Masked Autoencoder for Few-channel EEG-based Emotion Recognition**  
+  M Li, J Pan, D Ju, W Wu, A Hao, YJ Liu, Y Gao  
+  IEEE Transactions on Affective Computing  
+  [Paper Link](https://doi.org/10.1109/TAFFC.2026.3719828)
+
+- **EmoDiffuser: Emotional Diffuser for Speech-driven 3D Facial Animation**  
+  X Zhao, J Dai, F Zhou, H Wang, A Hao, J Pan, Y Gao  
+  The Visual Computer  
+  [Paper Link](https://doi.org/10.1007/s00371-026-04623-7)
+
+- **VoxStruct3D: Structure-Leading Flow Matching for Voxel-Space 3D MRI Synthesis**  
+  F Li, Y Gao, S Zou, W Si, H Wu, Q Xia, S Li, A Hao  
+  arXiv preprint arXiv:2608.04557  
+  [Paper Link](https://doi.org/10.48550/arXiv.2608.04557)
+
+- **Prior study on multimodal assessment and intervention of subthreshold depression in flight safety personnel**  
+  H Jiang, Y Liu, N Zhu, G Ye, Y Sun, X Wang, M Li, Y Gao, S Li  
+  Science China Technological Sciences  
+  [Paper Link](https://doi.org/10.1007/s11431-025-3231-6)
+
 ## 2025
+
+- **SOLAMI: Social Vision-Language-Action Modeling for Immersive Interaction with 3D Autonomous Characters**  
+  J Jiang, W Xiao, Z Lin, H Zhang, T Ren, Y Gao, Z Lin, Z Cai, L Yang, Z Liu  
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2025)  
+  [Paper Link](https://doi.org/10.1109/CVPR52734.2025.02504)
+
+- **Effects of interaction modalities and emotional states on user's perceived empathy with an LLM-based embodied conversational agent**  
+  Y Gao, Y Dai, G Zhang, H Guo, A Hao, S Li  
+  International Journal of Human-Computer Studies  
+  [Paper Link](https://doi.org/10.1016/j.ijhcs.2025.103585)
+
+- **Real-time immersive haptic sculpting with elastoplastic virtual clay**  
+  P Yu, Z Ji, A Hao, Y Gao  
+  The Visual Computer  
+  [Paper Link](https://doi.org/10.1007/s00371-025-03986-7)
 
 - **Trust in Virtual Agents: Exploring the Role of Stylization and Voice**  
   Y Gao, Y Dai, G Zhang, H Guo, F Mostajeran, B Zheng, T Yu  
