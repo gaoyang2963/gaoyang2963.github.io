@@ -268,27 +268,23 @@ hidemeta: true
 <table style="width: 100%; border-collapse: collapse; margin-bottom: 1rem;">
   <thead>
     <tr style="background-color: #f5f5f5;">
-      <th style="padding: 10px; font-size: 16px; text-align: left; border-bottom: 2px solid #ddd;">姓名</th>
-      <th style="padding: 10px; font-size: 16px; text-align: left; border-bottom: 2px solid #ddd;">毕业日期</th>
-      <th style="padding: 10px; font-size: 16px; text-align: left; border-bottom: 2px solid #ddd;">就业去向</th>
-      <th style="padding: 10px; font-size: 16px; text-align: left; border-bottom: 2px solid #ddd;">获奖情况</th>
+      <th style="padding: 10px; font-size: 14px; text-align: left; border-bottom: 2px solid #ddd;">姓名</th>
+      <th style="padding: 10px; font-size: 14px; text-align: left; border-bottom: 2px solid #ddd;">毕业日期</th>
+      <th style="padding: 10px; font-size: 14px; text-align: left; border-bottom: 2px solid #ddd;">就业去向</th>
+      <th style="padding: 10px; font-size: 14px; text-align: left; border-bottom: 2px solid #ddd;">获奖情况</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">宋子龙</td><td style="padding: 10px; font-size: 16px;">2026.06</td><td style="padding: 10px; font-size: 16px;">中国核能电力股份有限公司</td><td style="padding: 10px; font-size: 16px;"></td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">戴阳斌</td><td style="padding: 10px; font-size: 16px;">2026.06</td><td style="padding: 10px; font-size: 16px;">中国农业银行研发中心</td><td style="padding: 10px; font-size: 16px;">国家奖学金；北航优秀硕士论文</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">徐灵婧</td><td style="padding: 10px; font-size: 16px;">2026.06</td><td style="padding: 10px; font-size: 16px;">字节跳动</td><td style="padding: 10px; font-size: 16px;">国家奖学金</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">孙大琨</td><td style="padding: 10px; font-size: 16px;">2026.06</td><td style="padding: 10px; font-size: 16px;">米哈游</td><td style="padding: 10px; font-size: 16px;"></td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">李岳成</td><td style="padding: 10px; font-size: 16px;">2026.06</td><td style="padding: 10px; font-size: 16px;">美团</td><td style="padding: 10px; font-size: 16px;"></td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">李瑾</td><td style="padding: 10px; font-size: 16px;">2025.06</td><td style="padding: 10px; font-size: 16px;">北方工业大学</td><td style="padding: 10px; font-size: 16px;">北航研究生优秀学术创新成果奖</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">白洪铭</td><td style="padding: 10px; font-size: 16px;">2025.06</td><td style="padding: 10px; font-size: 16px;">中国航空工业集团沈阳飞机设计研究所</td><td style="padding: 10px; font-size: 16px;">优秀研究生</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">曲清越</td><td style="padding: 10px; font-size: 16px;">2025.06</td><td style="padding: 10px; font-size: 16px;">阿里云</td><td style="padding: 10px; font-size: 16px;">北航优秀团员</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">陈安琪</td><td style="padding: 10px; font-size: 16px;">2025.01</td><td style="padding: 10px; font-size: 16px;">字节跳动</td><td style="padding: 10px; font-size: 16px;">北航优秀毕业生；北航三好学生</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">李明</td><td style="padding: 10px; font-size: 16px;">2024.12</td><td style="padding: 10px; font-size: 16px;">清华大学(博士后)</td><td style="padding: 10px; font-size: 16px;">第24届中国虚拟现实大会最佳海报奖；"北航之友"九号公司奖学金特等奖；第7届计算机图形学与混合现实前沿研讨会优秀海报奖；北航优秀毕业生</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">王可欣</td><td style="padding: 10px; font-size: 16px;">2024.06</td><td style="padding: 10px; font-size: 16px;">美团</td><td style="padding: 10px; font-size: 16px;">北航优秀毕业论文</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">谢雪光</td><td style="padding: 10px; font-size: 16px;">2024.01</td><td style="padding: 10px; font-size: 16px;">北京科技大学</td><td style="padding: 10px; font-size: 16px;">VIGA Lab 首位博士毕业生</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">陈卓</td><td style="padding: 10px; font-size: 16px;">2024.01</td><td style="padding: 10px; font-size: 16px;">阿里巴巴</td><td style="padding: 10px; font-size: 16px;"></td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">蒋孟贤</td><td style="padding: 10px; font-size: 16px;">2023.06</td><td style="padding: 10px; font-size: 16px;">字节跳动</td><td style="padding: 10px; font-size: 16px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">宋子龙</td><td style="padding: 10px; font-size: 14px;">2026.06</td><td style="padding: 10px; font-size: 14px;">中国核能电力股份有限公司</td><td style="padding: 10px; font-size: 14px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">戴阳斌</td><td style="padding: 10px; font-size: 14px;">2026.06</td><td style="padding: 10px; font-size: 14px;">中国农业银行研发中心</td><td style="padding: 10px; font-size: 14px;">国家奖学金；北航优秀硕士论文</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">徐灵婧</td><td style="padding: 10px; font-size: 14px;">2026.06</td><td style="padding: 10px; font-size: 14px;">字节跳动</td><td style="padding: 10px; font-size: 14px;">国家奖学金</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">孙大琨</td><td style="padding: 10px; font-size: 14px;">2026.06</td><td style="padding: 10px; font-size: 14px;">米哈游</td><td style="padding: 10px; font-size: 14px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">李岳成</td><td style="padding: 10px; font-size: 14px;">2026.06</td><td style="padding: 10px; font-size: 14px;">美团</td><td style="padding: 10px; font-size: 14px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">李瑾</td><td style="padding: 10px; font-size: 14px;">2025.06</td><td style="padding: 10px; font-size: 14px;">北方工业大学</td><td style="padding: 10px; font-size: 14px;">北航研究生优秀学术创新成果奖</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">白洪铭</td><td style="padding: 10px; font-size: 14px;">2025.06</td><td style="padding: 10px; font-size: 14px;">中国航空工业集团沈阳飞机设计研究所</td><td style="padding: 10px; font-size: 14px;">优秀研究生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">曲清越</td><td style="padding: 10px; font-size: 14px;">2025.06</td><td style="padding: 10px; font-size: 14px;">阿里云</td><td style="padding: 10px; font-size: 14px;">北航优秀团员</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">陈安琪</td><td style="padding: 10px; font-size: 14px;">2025.01</td><td style="padding: 10px; font-size: 14px;">字节跳动</td><td style="padding: 10px; font-size: 14px;">北航优秀毕业生；北航三好学生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">李明</td><td style="padding: 10px; font-size: 14px;">2024.12</td><td style="padding: 10px; font-size: 14px;">清华大学(博士后)</td><td style="padding: 10px; font-size: 14px;">第24届中国虚拟现实大会最佳海报奖；"北航之友"九号公司奖学金特等奖；第7届计算机图形学与混合现实前沿研讨会优秀海报奖；北航优秀毕业生</td></tr>
   </tbody>
 </table>
 
@@ -298,10 +294,15 @@ hidemeta: true
 
 <table style="width: 100%; border-collapse: collapse;">
   <tbody>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">程天伟</td><td style="padding: 10px; font-size: 16px;">2023.06</td><td style="padding: 10px; font-size: 16px;">交通银行</td><td style="padding: 10px; font-size: 16px;"></td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">胡奔</td><td style="padding: 10px; font-size: 16px;">2023.01</td><td style="padding: 10px; font-size: 16px;">阿里巴巴</td><td style="padding: 10px; font-size: 16px;">北京市优秀毕业生；北航计算机之星；北航三好学生；北航优秀研究生</td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">陈舒玮</td><td style="padding: 10px; font-size: 16px;">2022.01</td><td style="padding: 10px; font-size: 16px;">新浪微博</td><td style="padding: 10px; font-size: 16px;"></td></tr>
-    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 16px;">翟英男</td><td style="padding: 10px; font-size: 16px;">2022.01</td><td style="padding: 10px; font-size: 16px;">经纬恒润</td><td style="padding: 10px; font-size: 16px;">北航优秀研究生、北航优秀毕业生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">王可欣</td><td style="padding: 10px; font-size: 14px;">2024.06</td><td style="padding: 10px; font-size: 14px;">美团</td><td style="padding: 10px; font-size: 14px;">北航优秀毕业论文</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">谢雪光</td><td style="padding: 10px; font-size: 14px;">2024.01</td><td style="padding: 10px; font-size: 14px;">北京科技大学</td><td style="padding: 10px; font-size: 14px;">VIGA Lab 首位博士毕业生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">陈卓</td><td style="padding: 10px; font-size: 14px;">2024.01</td><td style="padding: 10px; font-size: 14px;">阿里巴巴</td><td style="padding: 10px; font-size: 14px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">蒋孟贤</td><td style="padding: 10px; font-size: 14px;">2023.06</td><td style="padding: 10px; font-size: 14px;">字节跳动</td><td style="padding: 10px; font-size: 14px;"></td></tr>
+
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">程天伟</td><td style="padding: 10px; font-size: 14px;">2023.06</td><td style="padding: 10px; font-size: 14px;">交通银行</td><td style="padding: 10px; font-size: 14px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">胡奔</td><td style="padding: 10px; font-size: 14px;">2023.01</td><td style="padding: 10px; font-size: 14px;">阿里巴巴</td><td style="padding: 10px; font-size: 14px;">北京市优秀毕业生；北航计算机之星；北航三好学生；北航优秀研究生</td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">陈舒玮</td><td style="padding: 10px; font-size: 14px;">2022.01</td><td style="padding: 10px; font-size: 14px;">新浪微博</td><td style="padding: 10px; font-size: 14px;"></td></tr>
+    <tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-size: 14px;">翟英男</td><td style="padding: 10px; font-size: 14px;">2022.01</td><td style="padding: 10px; font-size: 14px;">经纬恒润</td><td style="padding: 10px; font-size: 14px;">北航优秀研究生、北航优秀毕业生</td></tr>
   </tbody>
 </table>
 

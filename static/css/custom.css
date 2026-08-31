@@ -172,23 +172,23 @@
 #alumni-list table,
 #alumni-list table td,
 #alumni-list table th {
-    font-size: 16px !important;
+    font-size: 14px !important;
     line-height: 1.5;
 }
 
 #alumni-list th {
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 #alumni-more table,
 #alumni-more table td,
 #alumni-more table th {
-    font-size: 16px !important;
+    font-size: 14px !important;
     line-height: 1.5;
 }
 
 #alumni-more details summary {
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     color: #555;
 }
@@ -201,6 +201,6 @@
     #alumni-more table,
     #alumni-more table td,
     #alumni-more table th {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 }
