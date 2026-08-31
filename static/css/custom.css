@@ -168,27 +168,27 @@
     color: #aaa;
 }
 
-/* Alumni Section - Smaller font sizes */
+/* Alumni Section - font size matches Master Students name (h4 = 16px) */
 #alumni-list table,
 #alumni-list table td,
 #alumni-list table th {
-    font-size: 0.85rem !important;
+    font-size: 16px !important;
     line-height: 1.5;
 }
 
 #alumni-list th {
-    font-size: 0.9rem !important;
+    font-size: 16px !important;
 }
 
 #alumni-more table,
 #alumni-more table td,
 #alumni-more table th {
-    font-size: 0.85rem !important;
+    font-size: 16px !important;
     line-height: 1.5;
 }
 
 #alumni-more details summary {
-    font-size: 0.85rem;
+    font-size: 16px;
     cursor: pointer;
     color: #555;
 }
@@ -201,6 +201,6 @@
     #alumni-more table,
     #alumni-more table td,
     #alumni-more table th {
-        font-size: 0.8rem !important;
+        font-size: 16px !important;
     }
 }
