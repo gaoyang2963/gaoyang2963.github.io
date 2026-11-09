@@ -20,7 +20,7 @@ GOOGLE_SCHOLAR_ID = os.environ.get("GOOGLE_SCHOLAR_ID") or "gMVDb5wAAAAJ"
 CONTENT_FILE = "content/_index.md"
 REPORT_FILE = ".sync_report.md"
 MIN_YEAR = 2025          # only consider recent publications for the "Selected" list
-MAX_FETCH = 30           # how many Scholar entries to inspect
+MAX_FETCH = 15           # how many Scholar entries to inspect
 
 
 def _norm(text):
@@ -31,6 +31,13 @@ def _norm(text):
 
 def fetch_google_scholar_publications(scholar_id, max_results=MAX_FETCH):
     from scholarly import scholarly
+
+    # Fail fast: default retry/backoff makes a blocked runner hang for many minutes
+    for setter, value in (("set_retries", 0), ("set_timeout", 20)):
+        try:
+            getattr(scholarly, setter)(value)
+        except Exception:  # noqa: BLE001 - older versions may not expose these
+            pass
 
     print(f"Fetching publications for scholar ID: {scholar_id}")
     try:
