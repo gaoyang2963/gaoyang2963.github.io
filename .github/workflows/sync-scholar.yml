@@ -28,13 +28,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          # bibtexparser 2.x removed the `bibdatabase` submodule that scholarly imports
           pip install "bibtexparser==1.4.1" scholarly requests
 
       - name: Sync Google Scholar publications
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
-          # Run the sync script
           python sync_google_scholar.py
 
       - name: Check for changes
@@ -49,30 +49,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Auto: Sync publications from Google Scholar"
           title: "📚 Monthly Google Scholar Sync - Please Review"
-          body: |
-            ## 📚 Monthly Google Scholar Publications Sync
-            
-            This PR automatically syncs new publications from Google Scholar.
-            
-            ### What to review:
-            - ✅ Check if the new papers are correct
-            - ✅ Verify the DOI links work
-            - ✅ Ensure formatting is correct
-            - ✅ Confirm no unwanted papers are included
-            
-            ### How to proceed:
-            1. Review the changes in the "Files changed" tab
-            2. Test locally if needed: `hugo server -D`
-            3. If everything looks good, merge this PR
-            4. The website will automatically deploy after merge
-            
-            ### Important:
-            - This PR only affects `content/_index.md`
-            - Original file is backed up automatically
-            - You can always discard changes if needed
-            
-            --- 
-            *Automated sync from Google Scholar (ID: gMVDb5wAAAAJ)*
+          body-path: .sync_report.md
+          add-paths: content/
           branch: auto-sync-google-scholar
           delete-branch: true
           draft: false
