@@ -1,198 +1,203 @@
 #!/usr/bin/env python3
 """
 Google Scholar Publications Sync Script
-Fetches publications from Google Scholar and updates the website content.
-Run this monthly via GitHub Actions automation.
+Fetches publications from Google Scholar and ADDS new entries to the website.
+
+Design notes:
+- Only appends papers that are not already present (matched by normalized title),
+  so hand-curated formatting of existing entries is never overwritten.
+- Emits a short report (.sync_report.md) used as the Pull Request body.
 """
 
 import json
 import re
-from datetime import datetime
-from scholarly import scholarly, ProxyGenerator
-import requests
 import os
+import sys
+from datetime import datetime
 
 # Configuration
-GOOGLE_SCHOLAR_ID = "gMVDb5wAAAAJ"  # Replace with actual ID
+GOOGLE_SCHOLAR_ID = os.environ.get("GOOGLE_SCHOLAR_ID") or "gMVDb5wAAAAJ"
 CONTENT_FILE = "content/_index.md"
-BACKUP_FILE = f"content/_index.md.backup.{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+REPORT_FILE = ".sync_report.md"
+MIN_YEAR = 2025          # only consider recent publications for the "Selected" list
+MAX_FETCH = 30           # how many Scholar entries to inspect
 
-def fetch_google_scholar_publications(scholar_id, max_results=50):
-    """Fetch publications from Google Scholar profile"""
+
+def _norm(text):
+    """Normalize text for fuzzy comparison (strip html, punctuation, case)."""
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    return re.sub(r"[^a-z0-9]+", "", text.lower())
+
+
+def fetch_google_scholar_publications(scholar_id, max_results=MAX_FETCH):
+    from scholarly import scholarly
+
     print(f"Fetching publications for scholar ID: {scholar_id}")
-
     try:
-        search_query = scholarly.search_author(scholar_id)
-        author = scholarly.fill(search_query, sections=['publications'])
+        result = scholarly.search_author(scholar_id)
+        # scholarly >= 1.5 returns a generator, older versions return a dict
+        if not isinstance(result, dict):
+            result = next(iter(result))
+        author = scholarly.fill(result, sections=["publications"])
 
         publications = []
-        for pub in author['publications'][:max_results]:
-            # Fill publication details
-            pub_data = scholarly.fill(pub)
-
-            # Extract publication info
-            pub_info = {
-                'title': pub_data.get('bib', {}).get('title', ''),
-                'year': str(pub_data.get('bib', {}).get('pub_year', '2025')),
-                'venue': pub_data.get('bib', {}).get('citation', ''),
-                'authors': pub_data.get('bib', {}).get('author', ''),
-                'url': pub_data.get('pub_url', ''),
-                'doi': extract_doi(pub_data),
-                'citation_count': pub_data.get('num_citations', 0)
+        for pub in author.get("publications", [])[:max_results]:
+            try:
+                pub_data = scholarly.fill(pub)
+            except Exception as exc:  # noqa: BLE001 - single entry failure is non-fatal
+                print(f"  skip one entry ({exc})")
+                continue
+            bib = pub_data.get("bib", {})
+            info = {
+                "title": (bib.get("title") or "").strip(),
+                "year": str(bib.get("pub_year") or ""),
+                "venue": (bib.get("citation") or "").strip(),
+                "authors": (bib.get("author") or "").strip(),
+                "url": pub_data.get("pub_url", ""),
+                "doi": extract_doi(pub_data),
             }
-            publications.append(pub_info)
-            print(f"  Found: {pub_info['title']} ({pub_info['year']})")
+            if info["title"]:
+                publications.append(info)
+                print(f"  found: {info['title']} ({info['year']})")
 
         print(f"Total publications fetched: {len(publications)}")
         return publications
-
-    except Exception as e:
-        print(f"Error fetching publications: {e}")
+    except Exception as exc:  # noqa: BLE001
+        print(f"Error fetching publications: {exc}")
         return []
 
+
 def extract_doi(pub_data):
-    """Extract DOI from publication data"""
-    # Try to extract DOI from pub_url or citation
-    url = pub_data.get('pub_url', '')
-    citation = pub_data.get('bib', {}).get('citation', '')
+    url = pub_data.get("pub_url", "") or ""
+    citation = pub_data.get("bib", {}).get("citation", "") or ""
 
-    # Pattern 1: DOI in URL
-    doi_match = re.search(r'doi\.org/(10\.\d{4,}/[^\s]+)', url)
+    doi_match = re.search(r"doi\.org/(10\.\d{4,}/[^\s&]+)", url)
     if doi_match:
         return f"https://doi.org/{doi_match.group(1)}"
 
-    # Pattern 2: DOI in citation text
-    doi_match = re.search(r'(10\.\d{4,}/[^\s,]+)', citation)
+    doi_match = re.search(r"(10\.\d{4,}/[^\s,;]+)", citation)
     if doi_match:
         return f"https://doi.org/{doi_match.group(1)}"
 
-    # Pattern 3: IEEE Xplore DOI
-    doi_match = re.search(r'document/(\d+)', url)
-    if doi_match and 'ieeexplore.ieee.org' in url:
-        doc_id = doi_match.group(1)
-        # Map to approximate DOI (this is a simplified approach)
-        return f"https://doi.org/10.1109/TVCG.{doc_id}"
+    ieee = re.search(r"document/(\d+)", url)
+    if ieee and "ieeexplore.ieee.org" in url:
+        return f"https://doi.org/10.1109/TVCG.{ieee.group(1)}"
 
-    return None
+    return url or None
 
-def format_publication_for_website(pub):
-    """Format publication data for website Markdown"""
-    # Extract venue from citation
-    venue = pub['venue']
-    year = pub['year']
 
-    # Try to extract conference/journal abbreviation
-    venue_match = re.match(r'\[([^\]]+)\]', venue)
+def format_publication(pub):
+    venue = pub["venue"]
+    year = pub["year"]
+
+    venue_match = re.match(r"\[([^\]]+)\]", venue)
     if venue_match:
-        venue_abbr = venue_match.group(1)
-        venue_full = venue.replace(venue_abbr, '').strip()
+        abbr = venue_match.group(1)
+        venue_full = venue.replace(venue_match.group(0), "").strip()
     else:
-        venue_abbr = 'Unknown'
-        venue_full = venue
+        abbr, venue_full = "Paper", venue
 
-    # Format paper link
-    paper_link = ""
-    if pub['doi']:
-        paper_link = f'    [<a href="{pub["doi"]}">Paper</a>]\n'
-    elif pub['url']:
-        paper_link = f'    [<a href="{pub["url"]}">Paper</a>]\n'
+    link = f'    [<a href="{pub["doi"]}">Paper</a>]' if pub["doi"] else ""
 
-    # Format author list
-    authors = pub['authors']
-    if len(authors) > 100:  # Truncate if too long
-        authors = authors[:100] + '...'
+    authors = pub["authors"]
+    if len(authors) > 120:
+        authors = authors[:120] + "..."
 
-    # Create markdown entry
-    markdown = f'''  <li>
-    <p><strong>[{venue_abbr} '{year[-2:]}]</strong> {authors}.
-    {pub['title']}. {venue_full}, {year}.
-    {paper_link}</p>
-  </li>'''
+    head = f"  <li>\n    <p><strong>[{abbr} '{year[-2:]}]</strong> {authors}.\n"
+    tail = f"    {pub['title']}. {venue_full}, {year}.\n"
+    if link:
+        tail += link + "</p>\n"
+    else:
+        tail = tail.rstrip("\n") + "</p>\n"
+    return head + tail + "  </li>\n"
 
-    return markdown
 
-def update_content_file(publications, content_file):
-    """Update the content file with new publications"""
-    print(f"Updating content file: {content_file}")
+def update_content_file(publications):
+    if not os.path.exists(CONTENT_FILE):
+        print(f"Error: {CONTENT_FILE} not found")
+        return []
 
-    # Backup original file
-    if os.path.exists(content_file):
-        import shutil
-        shutil.copy2(content_file, BACKUP_FILE)
-        print(f"Backup created: {BACKUP_FILE}")
+    content = open(CONTENT_FILE, encoding="utf-8").read()
+    existing_text = _norm(content)
 
-    # Read current content
-    with open(content_file, 'r', encoding='utf-8') as f:
-        content = f.read()
+    new_pubs = []
+    for pub in publications:
+        if not pub["year"].isdigit() or int(pub["year"]) < MIN_YEAR:
+            continue
+        key = _norm(pub["title"])[:60]
+        if not key or key in existing_text:
+            continue
+        new_pubs.append(pub)
+        existing_text += key  # guard against duplicates inside the same fetch
 
-    # Find publications section
-    pub_section_start = content.find('<h5 id="-publications">')
-    if pub_section_start == -1:
-        print("Error: Publications section not found!")
-        return False
+    if not new_pubs:
+        print("No new publications detected.")
+        return []
 
-    pub_list_start = content.find('<ul>', pub_section_start)
-    pub_list_end = content.find('</ul>', pub_list_start)
+    section = content.find('<h5 id="-publications">')
+    if section == -1:
+        print("Error: publications section not found")
+        return []
+    list_start = content.find("<ul>", section)
+    if list_start == -1:
+        print("Error: publications list not found")
+        return []
 
-    if pub_list_start == -1 or pub_list_end == -1:
-        print("Error: Publications list not found!")
-        return False
+    insert_at = list_start + len("<ul>\n")
+    block = "".join(format_publication(p) for p in new_pubs)
+    updated = content[:insert_at] + block + content[insert_at:]
 
-    # Generate new publications list
-    new_publications_html = "<ul>\n"
-    for pub in publications[:15]:  # Limit to top 15 for selected publications
-        new_publications_html += format_publication_for_website(pub)
-    new_publications_html += "</ul>\n"
+    open(CONTENT_FILE, "w", encoding="utf-8").write(updated)
+    print(f"Added {len(new_pubs)} new publication(s) to {CONTENT_FILE}")
+    return new_pubs
 
-    # Update content
-    updated_content = (
-        content[:pub_list_start] +
-        new_publications_html +
-        content[pub_list_end + 5:]  # Skip closing </ul>
-    )
 
-    # Write updated content
-    with open(content_file, 'w', encoding='utf-8') as f:
-        f.write(updated_content)
+def write_report(new_pubs, publications):
+    if not new_pubs:
+        return
+    lines = [
+        "## 本月 Google Scholar 新增论文",
+        "",
+        f"共检测到 **{len(new_pubs)}** 篇新增论文（来自 Scholar 抓取的 {len(publications)} 条记录）：",
+        "",
+    ]
+    for pub in new_pubs:
+        lines.append(f"- **{pub['title']}**")
+        lines.append(f"  - 作者：{pub['authors'] or '（未提供）'}")
+        lines.append(f"  - 出处：{pub['venue'] or '（未提供）'}")
+        lines.append(f"  - 年份：{pub['year']}")
+        lines.append(f"  - 链接：{pub['doi'] or '（无）'}")
+    lines += [
+        "",
+        "---",
+        "本次只做**追加**，已有条目格式未被改动。确认无误后合并即可，合并后自动部署。",
+    ]
+    open(REPORT_FILE, "w", encoding="utf-8").write("\n".join(lines))
+    print(f"Report written: {REPORT_FILE}")
 
-    print(f"Content file updated successfully!")
-    print(f"Updated {len(publications[:15])} publications")
-    return True
 
 def main():
-    """Main function"""
     print("=" * 60)
     print("Google Scholar Publications Sync")
     print(f"Run at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
-    # Check if Google Scholar ID is configured
-    if GOOGLE_SCHOLAR_ID == "YOUR_GOOGLE_SCHOLAR_ID":
-        print("Error: Please configure GOOGLE_SCHOLAR_ID in the script")
-        print("You can find your Scholar ID at: https://scholar.google.com/citations?user=YOUR_ID")
-        return
+    if GOOGLE_SCHOLAR_ID in ("", "YOUR_GOOGLE_SCHOLAR_ID"):
+        print("Error: GOOGLE_SCHOLAR_ID is not configured")
+        sys.exit(1)
 
-    # Fetch publications
     publications = fetch_google_scholar_publications(GOOGLE_SCHOLAR_ID)
-
     if not publications:
-        print("No publications fetched, exiting...")
-        return
+        print("No publications fetched - Google Scholar may be rate-limiting this runner.")
+        sys.exit(1)
 
-    # Sort by year (newest first)
-    publications.sort(key=lambda x: x['year'], reverse=True)
+    new_pubs = update_content_file(publications)
+    write_report(new_pubs, publications)
 
-    # Update content file
-    success = update_content_file(publications, CONTENT_FILE)
+    print("=" * 60)
+    print("done: %d new publication(s)" % len(new_pubs))
+    print("=" * 60)
 
-    if success:
-        print("\n" + "=" * 60)
-        print("✓ Publications sync completed successfully!")
-        print("=" * 60)
-    else:
-        print("\n" + "=" * 60)
-        print("✗ Publications sync failed!")
-        print("=" * 60)
 
 if __name__ == "__main__":
     main()
