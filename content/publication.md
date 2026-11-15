@@ -61,11 +61,6 @@ hidemeta: true
   The Visual Computer  
   [Paper Link](https://doi.org/10.1007/s00371-026-04623-7)
 
-- **VoxStruct3D: Structure-Leading Flow Matching for Voxel-Space 3D MRI Synthesis**  
-  F Li, Y Gao, S Zou, W Si, H Wu, Q Xia, S Li, A Hao  
-  arXiv preprint arXiv:2608.04557  
-  [Paper Link](https://doi.org/10.48550/arXiv.2608.04557)
-
 - **Prior study on multimodal assessment and intervention of subthreshold depression in flight safety personnel**  
   H Jiang, Y Liu, N Zhu, G Ye, Y Sun, X Wang, M Li, Y Gao, S Li  
   Science China Technological Sciences  
