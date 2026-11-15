@@ -394,6 +394,10 @@ layout: "home"
     Saliency-aware Foveated Path Tracing for Virtual Reality Rendering. IEEE Transactions on Visualization and Computer Graphics, 2025.
     [<a href="https://doi.org/10.1109/TVCG.2025.3549148">Paper</a>]</p>
   </li>
+</ul>
+<details class="pub-archive" id="pub-earlier">
+  <summary>Earlier Publications (2024 and before) &middot; 10 papers</summary>
+  <ul>
   <li>
     <p><strong>[TVCG '24]</strong> R Zeng, J Pan, J Dai, Y Gao, J Bai, H Qin.
     Motion Editing for Quadruped Characters via Latent Frequency Embedding. IEEE Transactions on Visualization and Computer Graphics, 2024.
@@ -444,7 +448,8 @@ layout: "home"
     Analysis of emotional tendency and syntactic properties of VR game reviews. IEEE VRW 2022.
     [<a href="https://doi.org/10.1109/VRW55077.2022.9757537">Paper</a>]</p>
   </li>
-</ul>
+  </ul>
+</details>
 
 </div>
 
