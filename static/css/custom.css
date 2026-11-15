@@ -204,3 +204,51 @@
         font-size: 14px !important;
     }
 }
+
+/* Selected Publications - collapsible archive (2024 and before) */
+.pub-archive {
+    margin: 4px 0 0;
+}
+
+.pub-archive > summary {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0064c8;
+    padding: 2px 0;
+    list-style: none;
+}
+
+.pub-archive > summary::-webkit-details-marker {
+    display: none;
+}
+
+.pub-archive > summary::before {
+    content: "\25B8";
+    display: inline-block;
+    width: 1em;
+    color: #888;
+    transition: transform 0.15s ease;
+}
+
+.pub-archive[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.pub-archive > summary:hover {
+    color: #004a94;
+    text-decoration: underline;
+}
+
+.pub-archive > ul {
+    margin-top: 4px;
+}
+
+[data-theme='dark'] .pub-archive > summary {
+    color: #6cb6ff;
+}
+
+[data-theme='dark'] .pub-archive > summary:hover {
+    color: #9ecbff;
+}
