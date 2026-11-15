@@ -413,8 +413,8 @@ layout: "home"
     [<a href="https://doi.org/10.1109/TVCG.2024.3447668">Paper</a>]</p>
   </li>
 </ul>
-<details class="pub-archive" id="pub-earlier">
-  <summary>Earlier Publications (2024 and before) &middot; 8 papers</summary>
+<details id="pub-earlier">
+  <summary><strong>Earlier Publications (2024 and before)</strong></summary>
   <ul>
   <li>
     <p><strong>[ACM MM '24]</strong> X Zhai, Y Jie, X Xie, A Hao, N Jiang, Y Gao.
