@@ -114,7 +114,7 @@ layout: "home"
   <tbody>
     <tr>
       <td class="news-date"><em>2026/11</em></td>
-      <td>One paper about Postoperative Complications Prediction for hepatocellular carcinoma has been accepted to IBHI (Peiji).</td>
+      <td>One paper about Postoperative Complications Prediction for hepatocellular carcinoma has been accepted to JBHI (Peiji).</td>
     </tr>
     <tr>
       <td class="news-date"><em>2026/09</em></td>
