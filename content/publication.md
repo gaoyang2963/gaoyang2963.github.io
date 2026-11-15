@@ -6,6 +6,26 @@ hidemeta: true
 
 ## 2026
 
+- **HOIAnimator++: Towards a Unified Semantic-Contact Paradigm for Human-Object Interaction Generation**  
+  S Li, J Li, X Zhang, W Song, Y Gao, A Hao, X Hou, C Chen, N Li, H Qin  
+  IEEE Transactions on Pattern Analysis and Machine Intelligence  
+  [Paper Link](https://doi.org/10.1109/TPAMI.2026.3744952)
+
+- **TRCoRSurg: Temporal-Relational Co-Reasoning for Surgical Video Triplet Recognition**  
+  F Li, S Zou, W Si, Y Gao, S Li, A Hao  
+  Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)  
+  [Paper Link](https://openaccess.thecvf.com/content/CVPR2026/papers/Li_TRCoRSurg_Temporal-Relational_Co-Reasoning_for_Surgical_Video_Triplet_Recognition_CVPR_2026_paper.pdf)
+
+- **XR-assisted non-invasive dysphagia screening using multi-representation swallowing sound fusion and deep neural networks**  
+  X Liu, Y Gao, W Song, Y Yu, A Hao  
+  Virtual Reality & Intelligent Hardware, 8(5), 619-636  
+  [Paper Link](https://www.sciencedirect.com/journal/virtual-reality-and-intelligent-hardware/vol/8/issue/5)
+
+- **A Free Surface Fluid Simulation Method with Improved Boundary Conditions Based on a Multi-Relaxation Model LBM**  
+  Q Qu, D Sun, S Li, A Hao, S Zhu, Y Gao  
+  Journal of Computer-Aided Design & Computer Graphics, 38(5), 877-890  
+  [Paper Link](https://doi.org/10.3724/SP.J.1089.2024-00330)
+
 - **EmoPoseFace: Head Pose Aware Speech-driven 3D Emotional Facial Animation Using Latent Diffusion**  
   X Zhao, J Dai, F Zhou, H Wang, Z Song, A Hao, H Qin, Y Gao  
   IEEE Transactions on Visualization and Computer Graphics  
