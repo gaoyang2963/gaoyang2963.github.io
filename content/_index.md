@@ -295,9 +295,24 @@ layout: "home"
 
 <ul>
   <li>
+    <p><strong>[TPAMI '26]</strong> S Li, J Li, X Zhang, W Song, Y Gao, A Hao, X Hou, C Chen, N Li, H Qin.
+    HOIAnimator++: Towards a Unified Semantic-Contact Paradigm for Human-Object Interaction Generation. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026.
+    [<a href="https://doi.org/10.1109/TPAMI.2026.3744952">Paper</a>]</p>
+  </li>
+  <li>
     <p><strong>[CVPR '26]</strong> F Li, S Zou, W Si, Y Gao, S Li, A Hao.
     TRCoRSurg: Temporal-Relational Co-Reasoning for Surgical Video Triplet Recognition. IEEE/CVF CVPR 2026.
     [<a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Li_TRCoRSurg_Temporal-Relational_Co-Reasoning_for_Surgical_Video_Triplet_Recognition_CVPR_2026_paper.pdf">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[VRIH '26]</strong> X Liu, Y Gao, W Song, Y Yu, A Hao.
+    XR-assisted non-invasive dysphagia screening using multi-representation swallowing sound fusion and deep neural networks. Virtual Reality &amp; Intelligent Hardware, 8(5), 619-636, 2026.
+    [<a href="https://www.sciencedirect.com/journal/virtual-reality-and-intelligent-hardware/vol/8/issue/5">Paper</a>]</p>
+  </li>
+  <li>
+    <p><strong>[J. CAD&amp;CG '26]</strong> Q Qu, D Sun, S Li, A Hao, S Zhu, Y Gao.
+    A Free Surface Fluid Simulation Method with Improved Boundary Conditions Based on a Multi-Relaxation Model LBM. Journal of Computer-Aided Design &amp; Computer Graphics, 38(5), 877-890, 2026.
+    [<a href="https://doi.org/10.3724/SP.J.1089.2024-00330">Paper</a>]</p>
   </li>
   <li>
     <p><strong>[ICLR '26]</strong> J Zheng, H Jia, M Li, Y Zheng, Y Zeng, Y Gao, C Liang.
