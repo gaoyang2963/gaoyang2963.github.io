@@ -6,6 +6,8 @@ hidemeta: true
 
 ## 2026
 
+- **2026-11**: One paper about postoperative complications prediction for hepatocellular carcinoma has been accepted to IBHI (Peiji).
+- **2026-09**: One paper about EEG-based emotion recognition has been accepted to TAFFC (Ming).
 - **2026-08**: VoxStruct3D (3D MRI synthesis via flow matching) has been released on arXiv; two papers have been published in IEEE Transactions on Affective Computing and The Visual Computer (Ming Li, Xin Zhao).
 - **2026-06**: One paper about speech-driven 3D emotional facial animation with head pose awareness has been accepted to TVCG (Xin Zhao).
 - **2026-02**: Three papers about rendering, virtual human Interaction and fluid simulation were accepted to IEEE VR 2026 (Xiang Cheng, Wencan and Yangbin).
