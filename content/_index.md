@@ -350,11 +350,6 @@ layout: "home"
     [<a href="https://doi.org/10.1007/s00371-026-04623-7">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[arXiv '26]</strong> F Li, Y Gao, S Zou, W Si, H Wu, Q Xia, S Li, A Hao.
-    VoxStruct3D: Structure-Leading Flow Matching for Voxel-Space 3D MRI Synthesis. arXiv preprint arXiv:2608.04557, 2026.
-    [<a href="https://doi.org/10.48550/arXiv.2608.04557">Paper</a>]</p>
-  </li>
-  <li>
     <p><strong>[Sci. China '26]</strong> H Jiang, Y Liu, N Zhu, G Ye, Y Sun, X Wang, M Li, Y Gao, S Li.
     Prior study on multimodal assessment and intervention of subthreshold depression in flight safety personnel. Science China Technological Sciences, 2026.
     [<a href="https://doi.org/10.1007/s11431-025-3231-6">Paper</a>]</p>
