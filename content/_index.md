@@ -402,24 +402,24 @@ layout: "home"
     Saliency-aware Foveated Path Tracing for Virtual Reality Rendering. IEEE Transactions on Visualization and Computer Graphics, 2025.
     [<a href="https://doi.org/10.1109/TVCG.2025.3549148">Paper</a>]</p>
   </li>
-</ul>
-<details class="pub-archive" id="pub-earlier">
-  <summary>Earlier Publications (2024 and before) &middot; 10 papers</summary>
-  <ul>
   <li>
-    <p><strong>[TVCG '24]</strong> R Zeng, J Pan, J Dai, Y Gao, J Bai, H Qin.
-    Motion Editing for Quadruped Characters via Latent Frequency Embedding. IEEE Transactions on Visualization and Computer Graphics, 2024.
+    <p><strong>[TVCG '25]</strong> R Zeng, J Pan, J Dai, Y Gao, J Bai, H Qin.
+    Motion Editing for Quadruped Characters via Latent Frequency Embedding. IEEE Transactions on Visualization and Computer Graphics, 2025.
     [<a href="https://doi.org/10.1109/TVCG.2024.3507952">Paper</a>]</p>
   </li>
+  <li>
+    <p><strong>[TVCG '25]</strong> S Liang, Y Gao, C Hu, A Hao, H Qin.
+    Efficient Photon Beam Diffusion for Directional Subsurface Scattering. IEEE Transactions on Visualization and Computer Graphics, 2025.
+    [<a href="https://doi.org/10.1109/TVCG.2024.3447668">Paper</a>]</p>
+  </li>
+</ul>
+<details class="pub-archive" id="pub-earlier">
+  <summary>Earlier Publications (2024 and before) &middot; 8 papers</summary>
+  <ul>
   <li>
     <p><strong>[ACM MM '24]</strong> X Zhai, Y Jie, X Xie, A Hao, N Jiang, Y Gao.
     ANFluid: Animate Natural Fluid Photos base on Physics-Aware Simulation and Dual-Flow Texture Learning. ACM Multimedia 2024.
     [<a href="https://dl.acm.org/doi/10.1145/3664647.3680950">Paper</a>]</p>
-  </li>
-  <li>
-    <p><strong>[TVCG '24]</strong> S Liang, Y Gao, C Hu, A Hao, H Qin.
-    Efficient Photon Beam Diffusion for Directional Subsurface Scattering. IEEE Transactions on Visualization and Computer Graphics, 2024.
-    [<a href="https://doi.org/10.1109/TVCG.2024.3447668">Paper</a>]</p>
   </li>
   <li>
     <p><strong>[CVPR '24]</strong> W Song, X Zhang, S Li, Y Gao, A Hao, X Hou, C Chen, N Li, H Qin.
@@ -427,34 +427,34 @@ layout: "home"
     [<a href="https://doi.org/10.1109/CVPR52733.2024.00083">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[TVCG '23]</strong> J Li, Y Gao, J Dai, S Li, A Hao, H Qin.
-    MPMNet: A Data-Driven MPM Framework for Dynamic Fluid-Solid Interaction. IEEE Transactions on Visualization and Computer Graphics, 2023.
-    [<a href="https://doi.org/10.1109/TVCG.2023.10113697">Paper</a>]</p>
+    <p><strong>[TVCG '24]</strong> J Li, Y Gao, J Dai, S Li, A Hao, H Qin.
+    MPMNet: A Data-Driven MPM Framework for Dynamic Fluid-Solid Interaction. IEEE Transactions on Visualization and Computer Graphics, 2024.
+    [<a href="https://doi.org/10.1109/TVCG.2023.3272156">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[TVCG '23]</strong> C Li, Y Gao, J He, T Cheng, S Li, A Hao, H Qin.
-    A Unified Particle-Based Solver for Non-Newtonian Behaviors Simulation. IEEE Transactions on Visualization and Computer Graphics, 2023.
-    [<a href="https://doi.org/10.1109/TVCG.2023.10354362">Paper</a>]</p>
+    <p><strong>[TVCG '24]</strong> C Li, Y Gao, J He, T Cheng, S Li, A Hao, H Qin.
+    A Unified Particle-Based Solver for Non-Newtonian Behaviors Simulation. IEEE Transactions on Visualization and Computer Graphics, 2024.
+    [<a href="https://doi.org/10.1109/TVCG.2023.3341453">Paper</a>]</p>
   </li>
   <li>
     <p><strong>[ISMAR '23]</strong> H Deng, J Li, Y Gao, X Liang, H Wu, A Hao.
     PhyVR: Physics-based Multi-material and Free-hand Interaction in VR. IEEE ISMAR 2023.
-    [<a href="https://doi.org/10.1109/ISMAR.2023.00115">Paper</a>]</p>
+    [<a href="https://doi.org/10.1109/ismar59233.2023.00060">Paper</a>]</p>
   </li>
   <li>
-    <p><strong>[TVCG '23]</strong> Y Xiao, H Bai, Y Gao, B Hu, J Zheng, XE Cai, J Rao, X Li, A Hao.
-    Interactive Virtual Ankle Movement Controlled by Wrist sEMG Improves Motor Imagery: An Exploratory Study. IEEE Transactions on Visualization and Computer Graphics, 2023.
-    [<a href="https://ieeexplore.ieee.org/document/10178041">Paper</a>]</p>
+    <p><strong>[TVCG '24]</strong> Y Xiao, H Bai, Y Gao, B Hu, J Zheng, XE Cai, J Rao, X Li, A Hao.
+    Interactive Virtual Ankle Movement Controlled by Wrist sEMG Improves Motor Imagery: An Exploratory Study. IEEE Transactions on Visualization and Computer Graphics, 2024.
+    [<a href="https://doi.org/10.1109/TVCG.2023.3294342">Paper</a>]</p>
   </li>
   <li>
     <p><strong>[TVCG '22]</strong> M Li, J Pan, Y Gao, Y Shen, F Luo, J Dai, A Hao, H Qin.
     Neurophysiological and subjective analysis of VR emotion induction paradigm. IEEE Transactions on Visualization and Computer Graphics, 2022.
-    [<a href="https://ieeexplore.ieee.org/abstract/document/9873987">Paper</a>]</p>
+    [<a href="https://doi.org/10.1109/TVCG.2022.3203099">Paper</a>]</p>
   </li>
   <li>
     <p><strong>[VRW '22]</strong> Y Gao, A Chen, S Chi, G Zhang, A Hao.
     Analysis of emotional tendency and syntactic properties of VR game reviews. IEEE VRW 2022.
-    [<a href="https://doi.org/10.1109/VRW55077.2022.9757537">Paper</a>]</p>
+    [<a href="https://doi.org/10.1109/vrw55335.2022.00175">Paper</a>]</p>
   </li>
   </ul>
 </details>
