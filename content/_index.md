@@ -113,6 +113,14 @@ layout: "home"
 <table>
   <tbody>
     <tr>
+      <td class="news-date"><em>2026/11</em></td>
+      <td>One paper about Postoperative Complications Prediction for hepatocellular carcinoma has been accepted to IBHI (Peiji).</td>
+    </tr>
+    <tr>
+      <td class="news-date"><em>2026/09</em></td>
+      <td>One paper about EEG-based Emotion Recognition has been accepted to TAFFC (Ming).</td>
+    </tr>
+    <tr>
       <td class="news-date"><em>2026/06</em></td>
       <td>One paper about speech-driven 3D emotional facial animation with head pose awareness has been accepted to TVCG (Xin Zhao).</td>
     </tr>
